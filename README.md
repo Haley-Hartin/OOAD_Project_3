@@ -2,19 +2,23 @@
 
 ## Group Members: Haley Drexel, Blythe Waltman, Haley Hartin
 
-1. Notes
+1. Language and Environment
 
    * 
 
-2. Assumptions Made
+2. Notes
+
+   * 
+
+3. Assumptions Made
 
    * 
    
    
-3. Issues Encountered During Development
+4. Issues Encountered During Development
 
    * 
    
-4. Instructions To Run Application
+5. Instructions To Run Application
 
    * 
