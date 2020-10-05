@@ -8,7 +8,7 @@
 
 2. Notes
 
-   * 
+   * The output file for this assignment will be titled output.txt
 
 3. Assumptions Made
 
