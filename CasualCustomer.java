@@ -20,3 +20,4 @@ public class CasualCustomer extends Customer{
 		setOrder(order);
  	}
 }
+
