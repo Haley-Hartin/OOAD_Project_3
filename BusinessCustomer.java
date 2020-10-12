@@ -25,7 +25,6 @@ public class BusinessCustomer extends Customer{
 			}
 			
 		}
-		System.out.println("The business customer ordered " + order);
 		setOrder(order);
  	}
 

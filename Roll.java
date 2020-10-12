@@ -5,6 +5,7 @@ public abstract class Roll {
 	private double price; //all roll prices should be different
 	private String order;
 	private String rollType;
+    private int numOrdered;
 	
 	public Roll() {
 		
@@ -31,5 +32,7 @@ public abstract class Roll {
 	public String getRollType() {
 		return this.rollType;
 	}
+    
+
 
 }

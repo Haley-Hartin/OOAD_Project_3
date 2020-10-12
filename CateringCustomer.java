@@ -5,6 +5,9 @@ public class CateringCustomer extends Customer{
 
 	public CateringCustomer() {
 		super("Catering Customer");
+//         this.menu = Arrays.asList("Egg Roll", "Jelly Roll", "Spring Roll", "Pastry Roll", "Sausage Roll");
+//         System.out.println("This Menu " + this.menu);
+        
 	}
 	
 	public void decideOrder() {

@@ -10,6 +10,7 @@ public abstract class Customer implements PropertyChangeListener{ //https://www.
 
 	public Customer(String customerType) {
 		this.customerType = customerType;
+        this.menu = Arrays.asList("Egg Roll", "Jelly Roll", "Spring Roll", "Pastry Roll", "Sausage Roll");
 	}
 	
 	public List<String> getOrder(){
@@ -29,17 +30,16 @@ public abstract class Customer implements PropertyChangeListener{ //https://www.
 	}
 	
 	public void observeMenu(List<String> menu) {
-		this.menu = menu;
+        this.menu = Arrays.asList("Egg Roll", "Jelly Roll", "Spring Roll", "Pastry Roll", "Sausage Roll");
+//         this.menu = [];
+		//this.menu = menu;
 	}
 	
 	public void observeStoreStatus() {
 		if(this.storeStatus == "Open") {
-			System.out.println("The Store is OPEN");
-			this.decideOrder();
-			System.out.println();
+			decideOrder();
 		}
 		else if(this.storeStatus == "Closed") {
-			System.out.println("The Store is CLOSED");
 			this.order = null;
 		}
 		
