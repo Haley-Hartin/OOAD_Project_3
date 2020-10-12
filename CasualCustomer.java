@@ -9,6 +9,7 @@ public class CasualCustomer extends Customer{
 	}
 
 	public void decideOrder() {
+		System.out.println("A Casual Customer is deciding its order");
 		Random rand = new Random(); ////https://www.geeksforgeeks.org/java-util-random-nextint-java/)
 		int numRolls = rand.nextInt(3) + 1; //1-3 rolls
 		List<String> order = new ArrayList<String>(); 
@@ -16,7 +17,6 @@ public class CasualCustomer extends Customer{
 			String type = getMenu().get(rand.nextInt(getMenu().size()));
 			order.add(type);
 		}
-		
 		setOrder(order);
  	}
 }

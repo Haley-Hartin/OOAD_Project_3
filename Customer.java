@@ -34,9 +34,12 @@ public abstract class Customer implements PropertyChangeListener{ //https://www.
 	
 	public void observeStoreStatus() {
 		if(this.storeStatus == "Open") {
+			System.out.println("The Store is OPEN");
 			this.decideOrder();
+			System.out.println();
 		}
 		else if(this.storeStatus == "Closed") {
+			System.out.println("The Store is CLOSED");
 			this.order = null;
 		}
 		

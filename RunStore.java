@@ -1,11 +1,16 @@
 import java.util.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
+import junit.framework.TestCase;
 
 public class RunStore {
 
 	public static void main(String[] args) {
 		
-		//Store store = new GourmetStore(30);
+	
+		Store store = new GourmetStore(30);
 		//Roll roll = store.fullfillOrder("Egg Roll");
+		store.runStore(2);
 		
 		Roll roll2 = new ExtraSauces(new ExtraFillings(new EggRoll(2.00), 1), 1);
 		Roll roll = new EggRoll(2.00);
@@ -17,6 +22,9 @@ public class RunStore {
 		System.out.println(roll.getOrderDescription());
 		System.out.println(roll2.cost());
 		System.out.println(roll2.getOrderDescription());
+
+		JUnitCore junit = new JUnitCore();
+
 		
 		//List<Customer> line = store.newCustomerLine();
 		//System.out.println(line);

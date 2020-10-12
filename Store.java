@@ -43,15 +43,14 @@ public abstract class Store {
 	       if(mentry.getValue() == 0) {
 	    	   zeroedInventory += 1;
 	       }
-	    }
-	    
+		}
 	    if(zeroedInventory == this.menu.size()) {
 	    	System.out.println("The Store has closed for the day due to sold out inventory.");
 	    	this.setStatus("Closed");
 	    }
 	    else {
-	    	this.setStatus("Open");
-	    }
+			this.setStatus("Open");
+		}
 	}
 
 	public Roll createRoll(String order) {
@@ -86,9 +85,10 @@ public abstract class Store {
         support.removePropertyChangeListener(pcl);
     }
  
-    public void setStatus(String status) { //https://www.baeldung.com/java-observer-pattern
-        support.firePropertyChange("Store Status", "<unk>", status); //observer pattern
-        this.status = status;
+	public void setStatus(String status) { //https://www.baeldung.com/java-observer-pattern
+		support.firePropertyChange("Store Status", "<unk>", status); //observer pattern
+		System.out.println("HELLO LAST");
+		this.status = status;
     }
     
     public void giveMenu() { //https://www.baeldung.com/java-observer-pattern
@@ -104,7 +104,7 @@ public abstract class Store {
     	System.out.println(inventoryReport + ".");
     }
 	
-	public void runStore(int days) {		
+	public void runStore(int days) {
 		for(int i = 1; i <= days; i++) {
 			List<Customer> customerLine = newCustomerLine();
 			System.out.println("It is day " + i + ".");
@@ -112,8 +112,10 @@ public abstract class Store {
 			for(int j = 0; j < customerLine.size(); j++) {
 				this.addPropertyChangeListener(customerLine.get(j)); //observer pattern
 			}
-			this.checkInventory();
 			this.giveMenu();
+			this.checkInventory();
+			
+			//this.giveMenu();
 			
 			
 			

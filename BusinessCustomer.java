@@ -8,6 +8,7 @@ public class BusinessCustomer extends Customer{
 	}
 	
 	public void decideOrder() {
+		System.out.println("A Business Customer is deciding its order");
 		int numRolls = 10;
 		List<String> order = new ArrayList<String>(); 
 		int currentType = 0;
@@ -24,7 +25,7 @@ public class BusinessCustomer extends Customer{
 			}
 			
 		}
-		
+		System.out.println("The business customer ordered " + order);
 		setOrder(order);
  	}
 
