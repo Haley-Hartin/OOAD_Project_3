@@ -75,6 +75,8 @@ public abstract class Store {
 	
 	public abstract Roll orderFromMenu(String order);
 	public abstract List<Customer> newCustomerLine();
+    
+
 	//public abstract void defaultStoreSettings();
 	
 	public void addPropertyChangeListener(PropertyChangeListener pcl) {//observer pattern //https://www.baeldung.com/java-observer-pattern
@@ -103,19 +105,46 @@ public abstract class Store {
 		}
     	System.out.println(inventoryReport + ".");
     }
+<<<<<<< Updated upstream
 	
 	public void runStore(int days) {
+=======
+
+    public void checkout(List<String> order){
+         for(int i = 0; i<order.size(); i++){
+             Roll roll = createRoll(order.get(i));
+             System.out.println(roll);
+             //add a sales counter here 
+         }
+    }
+
+    public void runStore(int days) {		
+>>>>>>> Stashed changes
 		for(int i = 1; i <= days; i++) {
 			List<Customer> customerLine = newCustomerLine();
 			System.out.println("It is day " + i + ".");
 			this.announceInventory();
+            this.giveMenu();
+            this.checkInventory();
 			for(int j = 0; j < customerLine.size(); j++) {
-				this.addPropertyChangeListener(customerLine.get(j)); //observer pattern
+                Customer customer = customerLine.get(j);
+                
+                //issue with setting the menu here
+                //menu gets set to null and causes errors 
+				this.addPropertyChangeListener(customer); //observer pattern 
+                customer.decideOrder();
+                List<String> order = customer.getOrder();
+                checkout(order);
 			}
+<<<<<<< Updated upstream
 			this.giveMenu();
 			this.checkInventory();
 			
 			//this.giveMenu();
+=======
+			
+			
+>>>>>>> Stashed changes
 			
 			
 			
