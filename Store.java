@@ -11,7 +11,7 @@ public abstract class Store {
 	private CashRegister cashRegister;
 	
 	public Store(int inventorySize, List<String> menu) {
-		this.menu = menu;
+		this.menu = menu;                                        //set menu and inventory
 		this.inventory = new Inventory(inventorySize, menu);
 		
 		support = new PropertyChangeSupport(this);
@@ -20,7 +20,7 @@ public abstract class Store {
 	}
 	
 	
-	public void updateStoreStatus() {
+	public void updateStoreStatus() { //check if all inventory is empty
 		if(this.inventory.checkInventoryForEmptiedStock() == this.inventory.getNumItemsInInvetory()) {
 	    	System.out.println("The Store has closed for the day due to sold out inventory.");
 	    	this.setStatus("Closed");
@@ -31,12 +31,13 @@ public abstract class Store {
 	}
 	
 
-	public Roll createRoll(String order) {
+	public Roll createRoll(String order) {  //create the roll and extras for the order
 		if(!this.inventory.stockAvailable(order)) {
 			return null;
 		}
 		Roll roll = orderFromMenu(order);
 		Random rand = new Random(); //https://www.geeksforgeeks.org/java-util-random-nextint-java/)
+		//randomly decide on extras
 		int extraSauces = rand.nextInt(4); //0-3  extra sauces
 		int extraFillings = rand.nextInt(2); //0-1 extra fillings
 		int extraToppings = rand.nextInt(3); //0-2 extra toppings
@@ -51,7 +52,7 @@ public abstract class Store {
 			roll = new ExtraToppings(roll, extraToppings);
 		}
 		
-		this.inventory.reduceStock(order);
+		this.inventory.reduceStock(order); //update inventory
 		
 		return roll;
 	}
@@ -79,17 +80,17 @@ public abstract class Store {
     
     
     
-    public List<Roll> serveCustomer(Customer customer){
+    public List<Roll> serveCustomer(Customer customer){  //take the customers order 
     	List<String> customerOrder = customer.getOrder();
 		List<Roll> customerRolls = new ArrayList<Roll>();
 		
 		while(true) {
 			for(int k = customerRolls.size(); k < customerOrder.size(); k++) {
 				String rollType = customerOrder.get(k);
-				Roll roll = createRoll(rollType);
-				if(roll == null) {
+				Roll roll = createRoll(rollType); //decide if thers extras with the roll 
+				if(roll == null) {  //if there is a roll outage
 					customer.changeOrder(k);
-					customerOrder = customer.getOrder();
+					customerOrder = customer.getOrder(); //get a new customer order
 					break;
 				}
 				else 	{
@@ -114,22 +115,22 @@ public abstract class Store {
     
     
 	public void runStore(int days) {	
-		for(int i = 1; i <= days; i++) {
+		for(int i = 1; i <= days; i++) { //run the store for x amount of days
 			CustomerLine customerLine = newCustomerLine();
 			System.out.println("It is day " + i + ".");
 			this.inventory.announceInventory();
 			this.addPropertyChangeListener(customerLine); //observer pattern
 			setStatus("Open");
 			
-			while(customerLine.serveNextCustomer()) {
+			while(customerLine.serveNextCustomer()) { 
 				this.updateStoreStatus();
-				Customer currentCustomer = customerLine.getCurrentCustomer();
+				Customer currentCustomer = customerLine.getCurrentCustomer(); //get a customer from the line
 								
-				List<Roll> customerRolls = serveCustomer(currentCustomer);
-				this.cashRegister.ringUpCustomer(currentCustomer, customerRolls);
+				List<Roll> customerRolls = serveCustomer(currentCustomer);  //get the order
+				this.cashRegister.ringUpCustomer(currentCustomer, customerRolls); //checkout
 				
 				
-				this.updateStoreStatus();
+				this.updateStoreStatus(); //check if store needs to close 
 				
 			}
 				
