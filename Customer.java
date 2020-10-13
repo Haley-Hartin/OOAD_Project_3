@@ -8,7 +8,7 @@ public abstract class Customer implements PropertyChangeListener{ //https://www.
 	private List<String> menu;
 	private String storeStatus;
 
-	public Customer(String customerType) {
+	public Customer(String customerType) { //initialize customer type and the menu
 		this.customerType = customerType;
         this.menu = Arrays.asList("Egg Roll", "Jelly Roll", "Spring Roll", "Pastry Roll", "Sausage Roll");
 	}
@@ -30,11 +30,10 @@ public abstract class Customer implements PropertyChangeListener{ //https://www.
 	}
 	
 	public void observeMenu(List<String> menu) {
-        this.menu = Arrays.asList("Egg Roll", "Jelly Roll", "Spring Roll", "Pastry Roll", "Sausage Roll");
-//         this.menu = [];
-		//this.menu = menu;
+        	this.menu = Arrays.asList("Egg Roll", "Jelly Roll", "Spring Roll", "Pastry Roll", "Sausage Roll");
 	}
 	
+	//only order if the store is open
 	public void observeStoreStatus() {
 		if(this.storeStatus == "Open") {
 			decideOrder();
@@ -45,7 +44,7 @@ public abstract class Customer implements PropertyChangeListener{ //https://www.
 		
 	}
 	
-	public abstract void decideOrder();
+	public abstract void decideOrder(); //each customer has there own decideOrder() function
 	
 	public void propertyChange(PropertyChangeEvent evt) { //observer pattern
 		if(evt.getPropertyName().equals("Store Menu")) {
