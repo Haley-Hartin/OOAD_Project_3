@@ -2,5 +2,8 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="C:/Users/hmdre/Downloads/jfreechart-master.zip"/>
+	<classpathentry kind="lib" path="C:/Users/hmdre/Downloads/xchart-3.6.5.zip"/>
+	<classpathentry kind="lib" path="C:/Users/hmdre/Downloads/xchart-3.6.5/xchart-3.6.5/xchart-3.6.5.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>

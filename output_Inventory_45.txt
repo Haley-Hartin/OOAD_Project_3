@@ -1,0 +1,1461 @@
+It is day 1.
+The inventory has:  45 Jelly Roll(s), 45 Spring Roll(s), 45 Egg Roll(s), 45 Pastry Roll(s), 45 Sausage Roll(s).
+Business Customer order cost $47.40 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], 
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling], [Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], 
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 2 Nut Topping], 
+
+Catering Customer order cost $66.90 with  5 Egg Roll(s), 5 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 1 Pork Filling], [Egg Roll, 2 Soy Sauce, 1 Pork Filling], [Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], 
+	[Egg Roll, 1 Lemon Zest Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling], 
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling], [Spring Roll, 1 Vegetable Filling], [Sausage Roll, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll], 
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], [Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], 
+
+Catering Customer order cost $50.00 with  5 Egg Roll(s), 5 Jelly Roll(s), 5 Pastry Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll], [Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], 
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Jelly Roll, 1 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Crumb Topping], 
+	[Jelly Roll, 3 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 1 Berry Sauce], [Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Whipped Cream Topping], 
+	[Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling], 
+
+Casual Customer order cost $15.00 with  1 Jelly Roll(s), 1 Pastry Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Vegetable Filling, 1 Nut Topping], [Pastry Roll, 3 Chocolate Sauce, 2 Whipped Cream Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], 
+
+Casual Customer order cost $13.70 with  3 Sausage Roll(s),  Receipt:
+	[Sausage Roll], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], 
+
+Casual Customer order cost $10.30 with  1 Egg Roll(s), 1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Lemon Zest Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Spring Roll, 1 Nut Topping], 
+
+Casual Customer order cost $10.50 with  1 Pastry Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+
+Casual Customer order cost $10.60 with  1 Jelly Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling], 
+
+Casual Customer order cost $3.90 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], 
+
+Casual Customer order cost $9.90 with  1 Jelly Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Jelly Roll, 2 Berry Sauce], 
+
+Casual Customer order cost $4.30 with  1 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], 
+
+Casual Customer order cost $1.20 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $4.80 with  1 Egg Roll(s), 1 Jelly Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Lemon Zest Topping], [Jelly Roll, 2 Crumb Topping], 
+
+No customers were affected by roll outages on day 1.
+On day 1 the store made $248.50. Breakdown: $116.90 Catering Customer(s), $47.40 Business Customer(s), $84.20 Casual Customer(s).
+On day 1 the store sold 60 rolls. Breakdown: 12 Jelly Roll(s), 10 Spring Roll(s), 15 Egg Roll(s), 10 Pastry Roll(s), 13 Sausage Roll(s).
+The inventory has:  33 Jelly Roll(s), 35 Spring Roll(s), 30 Egg Roll(s), 35 Pastry Roll(s), 32 Sausage Roll(s).
+No inventory was restocked.
+-----------------------------------------------------------
+It is day 2.
+The inventory has:  33 Jelly Roll(s), 35 Spring Roll(s), 30 Egg Roll(s), 35 Pastry Roll(s), 32 Sausage Roll(s).
+Catering Customer order cost $51.60 with  5 Egg Roll(s), 5 Jelly Roll(s), 5 Pastry Roll(s),  Receipt:
+	[Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], 
+	[Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling], [Pastry Roll, 1 Cinnamon Filling], [Pastry Roll, 1 Cinnamon Filling], 
+	[Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 1 Whipped Cream Topping], [Egg Roll, 1 Pork Filling], [Egg Roll, 1 Soy Sauce, 1 Pork Filling], 
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce, 1 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling], 
+
+Casual Customer order cost $13.20 with  1 Jelly Roll(s), 1 Pastry Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling], [Pastry Roll, 3 Chocolate Sauce], 
+
+Business Customer order cost $45.50 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling], [Jelly Roll, 3 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 1 Jelly Filling], 
+	[Pastry Roll, 2 Chocolate Sauce], [Pastry Roll, 3 Chocolate Sauce], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 1 Vegetable Filling, 2 Nut Topping], 
+
+Catering Customer order cost $56.10 with  5 Jelly Roll(s), 5 Pastry Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Whipped Cream Topping], 
+	[Pastry Roll, 2 Chocolate Sauce, 2 Whipped Cream Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 1 Berry Sauce], [Jelly Roll, 1 Berry Sauce, 2 Crumb Topping], 
+	[Jelly Roll, 1 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling], [Sausage Roll], 
+	[Sausage Roll, 2 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+
+Casual Customer order cost $2.90 with  1 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 2 Berry Sauce], 
+
+Casual Customer order cost $4.80 with  1 Egg Roll(s), 1 Jelly Roll(s),  Receipt:
+	[Egg Roll], [Jelly Roll, 3 Berry Sauce, 1 Crumb Topping], 
+
+Casual Customer order cost $15.20 with  1 Jelly Roll(s), 1 Pastry Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+
+Casual Customer order cost $5.50 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Vegetable Filling, 2 Nut Topping], 
+
+Casual Customer order cost $3.80 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Cheese Topping], 
+
+Casual Customer order cost $4.80 with  1 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 3 Berry Sauce, 1 Jelly Filling], 
+
+Casual Customer order cost $4.20 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 2 Chocolate Sauce, 2 Whipped Cream Topping], 
+
+No customers were affected by roll outages on day 2.
+On day 2 the store made $207.60. Breakdown: $107.70 Catering Customer(s), $45.50 Business Customer(s), $54.40 Casual Customer(s).
+On day 2 the store sold 53 rolls. Breakdown: 17 Jelly Roll(s), 3 Spring Roll(s), 8 Egg Roll(s), 15 Pastry Roll(s), 10 Sausage Roll(s).
+The inventory has:  16 Jelly Roll(s), 32 Spring Roll(s), 22 Egg Roll(s), 20 Pastry Roll(s), 22 Sausage Roll(s).
+No inventory was restocked.
+-----------------------------------------------------------
+It is day 3.
+The inventory has:  16 Jelly Roll(s), 32 Spring Roll(s), 22 Egg Roll(s), 20 Pastry Roll(s), 22 Sausage Roll(s).
+Catering Customer order cost $62.30 with  5 Egg Roll(s), 5 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 2 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll, 1 Vegetable Filling, 1 Nut Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Nut Topping], [Egg Roll, 1 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], 
+	[Egg Roll, 2 Lemon Zest Topping], [Egg Roll, 1 Lemon Zest Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll], 
+
+Business Customer order cost $38.50 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll, 1 Lemon Zest Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], 
+	[Pastry Roll, 2 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], 
+	[Spring Roll, 2 Sweet & Spicy Sauce, 2 Nut Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Nut Topping], 
+
+Catering Customer order cost $69.90 with  5 Egg Roll(s), 5 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Sweet & Spicy Sauce], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling], [Spring Roll, 2 Sweet & Spicy Sauce], 
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Nut Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll], 
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling], [Egg Roll, 3 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll], 
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 1 Pork Filling], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $10.20 with  1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], 
+
+Casual Customer order cost $5.00 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Sweet & Spicy Sauce], 
+
+Casual Customer order cost $6.10 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], 
+
+Casual Customer order cost $5.40 with  1 Egg Roll(s), 1 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 1 Jelly Filling, 2 Crumb Topping], [Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $9.50 with  1 Jelly Roll(s), 1 Spring Roll(s),  Receipt:
+	[Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling], 
+
+Casual Customer order cost $9.90 with  1 Pastry Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], [Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], 
+
+Casual Customer order cost $4.00 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce], 
+
+Casual Customer order cost $2.10 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 1 Pork Filling], 
+
+Casual Customer order cost $6.50 with  1 Jelly Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Pastry Roll], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], 
+
+No customers were affected by roll outages on day 3.
+On day 3 the store made $229.40. Breakdown: $132.20 Catering Customer(s), $38.50 Business Customer(s), $58.70 Casual Customer(s).
+On day 3 the store sold 54 rolls. Breakdown: 5 Jelly Roll(s), 16 Spring Roll(s), 14 Egg Roll(s), 4 Pastry Roll(s), 15 Sausage Roll(s).
+The inventory has:  11 Jelly Roll(s), 16 Spring Roll(s), 8 Egg Roll(s), 16 Pastry Roll(s), 7 Sausage Roll(s).
+No inventory was restocked.
+-----------------------------------------------------------
+It is day 4.
+The inventory has:  11 Jelly Roll(s), 16 Spring Roll(s), 8 Egg Roll(s), 16 Pastry Roll(s), 7 Sausage Roll(s).
+Business Customer order cost $40.20 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling], [Egg Roll, 2 Lemon Zest Topping], [Jelly Roll, 3 Berry Sauce], [Jelly Roll, 2 Berry Sauce], 
+	[Pastry Roll, 1 Cinnamon Filling], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Sausage Roll, 1 Worcestershire Sauce], [Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 2 Nut Topping], 
+
+Catering Customer order cost $55.30 with  5 Egg Roll(s), 5 Pastry Roll(s), 5 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 1 Pork Filling], 
+	[Egg Roll, 2 Soy Sauce, 2 Lemon Zest Topping], [Pastry Roll, 1 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+	[Pastry Roll, 1 Chocolate Sauce, 1 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce], [Spring Roll, 1 Sweet & Spicy Sauce], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Nut Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling], [Spring Roll, 1 Vegetable Filling, 1 Nut Topping], 
+
+Casual Customer order cost $13.50 with  1 Pastry Roll(s), 2 Sausage Roll(s),  Receipt:
+	[Pastry Roll, 3 Chocolate Sauce, 2 Whipped Cream Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll, 1 Sausage Filling, 2 Cheese Topping], 
+
+Casual Customer order cost $17.60 with  1 Pastry Roll(s), 1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+
+Casual Customer order cost $9.60 with  1 Pastry Roll(s), 1 Spring Roll(s),  Receipt:
+	[Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Spring Roll, 3 Sweet & Spicy Sauce], 
+
+Casual Customer order cost $10.60 with  2 Jelly Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Worcestershire Sauce], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 2 Berry Sauce], 
+
+Casual Customer order cost $11.80 with  1 Egg Roll(s), 1 Jelly Roll(s), 1 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Spring Roll, 1 Vegetable Filling, 2 Nut Topping], [Jelly Roll, 2 Berry Sauce], 
+
+2 Business Customer(s) did not fill their original orders on day 4 due to roll outages.
+On day 4 the store made $158.60. Breakdown: $55.30 Catering Customer(s), $40.20 Business Customer(s), $63.10 Casual Customer(s).
+On day 4 the store sold 39 rolls. Breakdown: 5 Jelly Roll(s), 10 Spring Roll(s), 8 Egg Roll(s), 10 Pastry Roll(s), 6 Sausage Roll(s).
+The inventory has:  6 Jelly Roll(s), 6 Spring Roll(s), 0 Egg Roll(s), 6 Pastry Roll(s), 1 Sausage Roll(s).
+The inventory was restocked with 45 Egg Roll(s).
+-----------------------------------------------------------
+It is day 5.
+The inventory has:  6 Jelly Roll(s), 6 Spring Roll(s), 45 Egg Roll(s), 6 Pastry Roll(s), 1 Sausage Roll(s).
+Casual Customer order cost $2.70 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling], 
+
+Casual Customer order cost $2.30 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $3.50 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Nut Topping], 
+
+Casual Customer order cost $18.50 with  1 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling], 
+
+Catering Customer order cost $63.10 with  4 Egg Roll(s), 2 Jelly Roll(s), 6 Pastry Roll(s), 3 Spring Roll(s),  Receipt:
+	[Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+	[Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling], [Spring Roll, 1 Vegetable Filling, 1 Nut Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling], [Egg Roll, 1 Lemon Zest Topping], 
+	[Spring Roll, 1 Vegetable Filling], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 2 Nut Topping], [Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], 
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Jelly Roll, 2 Crumb Topping], [Egg Roll, 3 Soy Sauce, 1 Pork Filling], 
+
+Casual Customer order cost $3.30 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling], 
+
+Casual Customer order cost $3.10 with  1 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], 
+
+Catering Customer order cost $40.50 with  12 Egg Roll(s), 3 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 3 Berry Sauce], [Egg Roll, 3 Soy Sauce], [Egg Roll, 3 Soy Sauce, 1 Lemon Zest Topping], [Egg Roll, 1 Lemon Zest Topping], 
+	[Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Egg Roll, 1 Soy Sauce], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Egg Roll, 1 Pork Filling], 
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling], [Egg Roll, 2 Soy Sauce], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], 
+	[Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 1 Pork Filling], [Egg Roll, 1 Soy Sauce, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $3.90 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling], 
+
+2 Catering Customer(s), 1 Business Customer(s), 3 Casual Customer(s) did not fill their original orders on day 5 due to roll outages.
+On day 5 the store made $140.90. Breakdown: $103.60 Catering Customer(s), $0.00 Business Customer(s), $37.30 Casual Customer(s).
+On day 5 the store sold 39 rolls. Breakdown: 6 Jelly Roll(s), 6 Spring Roll(s), 20 Egg Roll(s), 6 Pastry Roll(s), 1 Sausage Roll(s).
+The inventory has:  0 Jelly Roll(s), 0 Spring Roll(s), 25 Egg Roll(s), 0 Pastry Roll(s), 0 Sausage Roll(s).
+The inventory was restocked with 45 Jelly Roll(s), 45 Spring Roll(s), 45 Pastry Roll(s), 45 Sausage Roll(s).
+-----------------------------------------------------------
+It is day 6.
+The inventory has:  45 Jelly Roll(s), 45 Spring Roll(s), 25 Egg Roll(s), 45 Pastry Roll(s), 45 Sausage Roll(s).
+Casual Customer order cost $12.90 with  1 Egg Roll(s), 1 Jelly Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Lemon Zest Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], 
+
+Catering Customer order cost $61.70 with  5 Jelly Roll(s), 5 Pastry Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Pastry Roll, 1 Cinnamon Filling], [Pastry Roll, 2 Chocolate Sauce], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling], 
+	[Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Sausage Roll, 1 Worcestershire Sauce], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll], 
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll], [Jelly Roll, 2 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], 
+	[Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], 
+
+Casual Customer order cost $10.60 with  1 Pastry Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 2 Worcestershire Sauce], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+
+Business Customer order cost $44.30 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 1 Soy Sauce, 2 Lemon Zest Topping], [Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 2 Berry Sauce], 
+	[Pastry Roll, 2 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], 
+	[Spring Roll, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], 
+
+Casual Customer order cost $22.00 with  1 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+
+Casual Customer order cost $12.70 with  1 Egg Roll(s), 1 Jelly Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Jelly Roll, 2 Berry Sauce, 2 Crumb Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling], 
+
+Casual Customer order cost $4.50 with  1 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], 
+
+Catering Customer order cost $77.60 with  5 Jelly Roll(s), 5 Pastry Roll(s), 5 Spring Roll(s),  Receipt:
+	[Pastry Roll, 2 Chocolate Sauce, 2 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+	[Pastry Roll], [Spring Roll, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 1 Berry Sauce], 
+	[Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling], 
+
+No customers were affected by roll outages on day 6.
+On day 6 the store made $246.30. Breakdown: $139.30 Catering Customer(s), $44.30 Business Customer(s), $62.70 Casual Customer(s).
+On day 6 the store sold 52 rolls. Breakdown: 15 Jelly Roll(s), 9 Spring Roll(s), 4 Egg Roll(s), 14 Pastry Roll(s), 10 Sausage Roll(s).
+The inventory has:  30 Jelly Roll(s), 36 Spring Roll(s), 21 Egg Roll(s), 31 Pastry Roll(s), 35 Sausage Roll(s).
+No inventory was restocked.
+-----------------------------------------------------------
+It is day 7.
+The inventory has:  30 Jelly Roll(s), 36 Spring Roll(s), 21 Egg Roll(s), 31 Pastry Roll(s), 35 Sausage Roll(s).
+Casual Customer order cost $11.40 with  1 Pastry Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling], 
+
+Catering Customer order cost $62.90 with  5 Jelly Roll(s), 5 Pastry Roll(s), 5 Spring Roll(s),  Receipt:
+	[Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 1 Crumb Topping], [Jelly Roll], [Jelly Roll], 
+	[Jelly Roll, 2 Berry Sauce], [Spring Roll, 3 Sweet & Spicy Sauce], [Spring Roll, 1 Sweet & Spicy Sauce, 2 Nut Topping], [Spring Roll, 1 Sweet & Spicy Sauce], 
+	[Spring Roll, 1 Sweet & Spicy Sauce], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Nut Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling], 
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling], [Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], 
+
+Business Customer order cost $46.90 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], 
+	[Pastry Roll, 1 Chocolate Sauce], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling], 
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 1 Vegetable Filling], 
+
+Business Customer order cost $40.10 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Jelly Roll, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 2 Crumb Topping], 
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce], [Sausage Roll], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+	[Spring Roll, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 1 Vegetable Filling, 1 Nut Topping], 
+
+Catering Customer order cost $65.10 with  5 Pastry Roll(s), 5 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Pastry Roll, 2 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], 
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Spring Roll, 2 Sweet & Spicy Sauce], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 2 Nut Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce], [Spring Roll, 2 Nut Topping], [Sausage Roll], [Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], 
+	[Sausage Roll, 1 Worcestershire Sauce], [Sausage Roll], [Sausage Roll], 
+
+Business Customer order cost $45.80 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Jelly Roll, 3 Berry Sauce], [Jelly Roll, 1 Jelly Filling, 2 Crumb Topping], 
+	[Pastry Roll, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling], [Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 2 Cheese Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], [Spring Roll, 2 Sweet & Spicy Sauce, 2 Nut Topping], 
+
+Catering Customer order cost $53.60 with  5 Egg Roll(s), 5 Jelly Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce], [Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], 
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 1 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling], 
+	[Sausage Roll, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 1 Jelly Filling, 2 Crumb Topping], 
+	[Jelly Roll, 1 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 1 Crumb Topping], [Jelly Roll, 1 Jelly Filling], 
+
+No customers were affected by roll outages on day 7.
+On day 7 the store made $325.80. Breakdown: $181.60 Catering Customer(s), $132.80 Business Customer(s), $11.40 Casual Customer(s).
+On day 7 the store sold 77 rolls. Breakdown: 16 Jelly Roll(s), 17 Spring Roll(s), 11 Egg Roll(s), 17 Pastry Roll(s), 16 Sausage Roll(s).
+The inventory has:  14 Jelly Roll(s), 19 Spring Roll(s), 10 Egg Roll(s), 14 Pastry Roll(s), 19 Sausage Roll(s).
+No inventory was restocked.
+-----------------------------------------------------------
+It is day 8.
+The inventory has:  14 Jelly Roll(s), 19 Spring Roll(s), 10 Egg Roll(s), 14 Pastry Roll(s), 19 Sausage Roll(s).
+Casual Customer order cost $8.90 with  1 Jelly Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+
+Business Customer order cost $46.20 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 1 Pork Filling], [Jelly Roll, 3 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], 
+	[Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 1 Nut Topping], 
+
+Business Customer order cost $39.60 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Jelly Roll, 1 Berry Sauce, 1 Crumb Topping], [Jelly Roll], 
+	[Pastry Roll, 1 Chocolate Sauce], [Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], [Sausage Roll, 1 Sausage Filling], [Sausage Roll, 1 Sausage Filling, 2 Cheese Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Nut Topping], 
+
+Catering Customer order cost $51.60 with  5 Egg Roll(s), 5 Jelly Roll(s), 5 Pastry Roll(s),  Receipt:
+	[Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce, 1 Pork Filling], [Egg Roll, 1 Soy Sauce, 1 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce], 
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Jelly Roll], [Jelly Roll, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 2 Crumb Topping], 
+	[Jelly Roll, 3 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+	[Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce], 
+
+Casual Customer order cost $3.30 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 2 Cheese Topping], 
+
+Casual Customer order cost $12.20 with  1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], [Sausage Roll, 1 Sausage Filling, 2 Cheese Topping], 
+
+Catering Customer order cost $71.80 with  1 Egg Roll(s), 1 Jelly Roll(s), 4 Pastry Roll(s), 9 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], 
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Egg Roll, 2 Soy Sauce, 2 Lemon Zest Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Cheese Topping], [Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+	[Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 1 Sausage Filling], [Sausage Roll], 
+
+Casual Customer order cost $13.30 with  1 Jelly Roll(s), 1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 2 Nut Topping], 
+
+Casual Customer order cost $6.50 with  1 Jelly Roll(s), 1 Spring Roll(s),  Receipt:
+	[Jelly Roll], [Spring Roll, 1 Sweet & Spicy Sauce, 2 Nut Topping], 
+
+Casual Customer order cost $8.10 with  1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], [Spring Roll], 
+
+1 Catering Customer(s), 3 Casual Customer(s) did not fill their original orders on day 8 due to roll outages.
+On day 8 the store made $261.50. Breakdown: $123.40 Catering Customer(s), $85.80 Business Customer(s), $52.30 Casual Customer(s).
+On day 8 the store sold 62 rolls. Breakdown: 13 Jelly Roll(s), 8 Spring Roll(s), 10 Egg Roll(s), 14 Pastry Roll(s), 17 Sausage Roll(s).
+The inventory has:  1 Jelly Roll(s), 11 Spring Roll(s), 0 Egg Roll(s), 0 Pastry Roll(s), 2 Sausage Roll(s).
+The inventory was restocked with 45 Egg Roll(s), 45 Pastry Roll(s).
+-----------------------------------------------------------
+It is day 9.
+The inventory has:  1 Jelly Roll(s), 11 Spring Roll(s), 45 Egg Roll(s), 45 Pastry Roll(s), 2 Sausage Roll(s).
+Catering Customer order cost $73.30 with  2 Egg Roll(s), 6 Pastry Roll(s), 2 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce], [Spring Roll, 1 Sweet & Spicy Sauce], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling], [Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 2 Whipped Cream Topping], 
+	[Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 1 Whipped Cream Topping], 
+
+Catering Customer order cost $75.20 with  2 Egg Roll(s), 1 Jelly Roll(s), 6 Pastry Roll(s), 6 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Egg Roll, 3 Soy Sauce], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Spring Roll, 1 Vegetable Filling, 2 Nut Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], 
+	[Pastry Roll, 1 Whipped Cream Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Whipped Cream Topping], [Pastry Roll, 1 Whipped Cream Topping], 
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling], [Pastry Roll, 2 Whipped Cream Topping], 
+
+Casual Customer order cost $6.00 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+
+Casual Customer order cost $2.20 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $1.20 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $6.30 with  1 Egg Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], 
+
+Casual Customer order cost $4.70 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+
+Casual Customer order cost $4.10 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $2.90 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $2.90 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $3.40 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $4.70 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 3 Chocolate Sauce, 1 Whipped Cream Topping], 
+
+Casual Customer order cost $6.10 with  1 Egg Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce], [Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], 
+
+Casual Customer order cost $4.00 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], 
+
+2 Catering Customer(s), 2 Business Customer(s), 8 Casual Customer(s) did not fill their original orders on day 9 due to roll outages.
+On day 9 the store made $197.00. Breakdown: $148.50 Catering Customer(s), $0.00 Business Customer(s), $48.50 Casual Customer(s).
+On day 9 the store sold 44 rolls. Breakdown: 1 Jelly Roll(s), 11 Spring Roll(s), 13 Egg Roll(s), 17 Pastry Roll(s), 2 Sausage Roll(s).
+The inventory has:  0 Jelly Roll(s), 0 Spring Roll(s), 32 Egg Roll(s), 28 Pastry Roll(s), 0 Sausage Roll(s).
+The inventory was restocked with 45 Jelly Roll(s), 45 Spring Roll(s), 45 Sausage Roll(s).
+-----------------------------------------------------------
+It is day 10.
+The inventory has:  45 Jelly Roll(s), 45 Spring Roll(s), 32 Egg Roll(s), 28 Pastry Roll(s), 45 Sausage Roll(s).
+Casual Customer order cost $7.00 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+
+Business Customer order cost $42.10 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Jelly Roll, 1 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 1 Jelly Filling, 1 Crumb Topping], 
+	[Pastry Roll, 2 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], [Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], 
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 1 Nut Topping], 
+
+Casual Customer order cost $6.50 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling], 
+
+Casual Customer order cost $8.90 with  1 Pastry Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Sausage Filling, 2 Cheese Topping], [Pastry Roll, 2 Chocolate Sauce, 2 Whipped Cream Topping], 
+
+Catering Customer order cost $69.10 with  5 Egg Roll(s), 5 Pastry Roll(s), 5 Spring Roll(s),  Receipt:
+	[Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+	[Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], [Egg Roll, 2 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll, 1 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], 
+	[Egg Roll, 2 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], 
+	[Spring Roll, 2 Sweet & Spicy Sauce], [Spring Roll, 3 Sweet & Spicy Sauce], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+
+Casual Customer order cost $7.20 with  1 Egg Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], 
+
+Casual Customer order cost $3.60 with  1 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 3 Berry Sauce], 
+
+Casual Customer order cost $14.00 with  2 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling], [Sausage Roll, 1 Cheese Topping], 
+
+Casual Customer order cost $8.60 with  1 Egg Roll(s), 2 Jelly Roll(s),  Receipt:
+	[Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling], [Jelly Roll], 
+
+No customers were affected by roll outages on day 10.
+On day 10 the store made $167.00. Breakdown: $69.10 Catering Customer(s), $42.10 Business Customer(s), $55.80 Casual Customer(s).
+On day 10 the store sold 38 rolls. Breakdown: 5 Jelly Roll(s), 10 Spring Roll(s), 9 Egg Roll(s), 8 Pastry Roll(s), 6 Sausage Roll(s).
+The inventory has:  40 Jelly Roll(s), 35 Spring Roll(s), 23 Egg Roll(s), 20 Pastry Roll(s), 39 Sausage Roll(s).
+No inventory was restocked.
+-----------------------------------------------------------
+It is day 11.
+The inventory has:  40 Jelly Roll(s), 35 Spring Roll(s), 23 Egg Roll(s), 20 Pastry Roll(s), 39 Sausage Roll(s).
+Business Customer order cost $34.20 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 1 Crumb Topping], 
+	[Pastry Roll], [Pastry Roll, 1 Chocolate Sauce, 1 Whipped Cream Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 2 Cheese Topping], 
+	[Spring Roll], [Spring Roll, 1 Vegetable Filling], 
+
+Casual Customer order cost $12.50 with  1 Jelly Roll(s), 1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], [Spring Roll, 1 Nut Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Cheese Topping], 
+
+Catering Customer order cost $62.10 with  5 Egg Roll(s), 5 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], 
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Spring Roll, 1 Sweet & Spicy Sauce], [Spring Roll, 1 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce], 
+	[Spring Roll, 1 Vegetable Filling], [Spring Roll, 1 Sweet & Spicy Sauce], [Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], 
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+
+Catering Customer order cost $48.70 with  5 Egg Roll(s), 5 Jelly Roll(s), 5 Pastry Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], 
+	[Egg Roll, 3 Soy Sauce], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 2 Berry Sauce], 
+	[Jelly Roll, 1 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 1 Jelly Filling], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling], 
+	[Pastry Roll], [Pastry Roll, 1 Cinnamon Filling], [Pastry Roll, 1 Whipped Cream Topping], 
+
+Casual Customer order cost $15.40 with  1 Egg Roll(s), 2 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+
+Casual Customer order cost $1.70 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Lemon Zest Topping], 
+
+Catering Customer order cost $64.30 with  5 Jelly Roll(s), 5 Pastry Roll(s), 5 Spring Roll(s),  Receipt:
+	[Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], 
+	[Pastry Roll, 2 Whipped Cream Topping], [Spring Roll, 2 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll], 
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], 
+	[Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], 
+
+Casual Customer order cost $8.00 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+
+Casual Customer order cost $9.70 with  1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Sweet & Spicy Sauce], [Sausage Roll, 1 Sausage Filling, 2 Cheese Topping], 
+
+Casual Customer order cost $2.90 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $15.50 with  1 Egg Roll(s), 1 Pastry Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce, 2 Nut Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Egg Roll, 3 Soy Sauce, 2 Lemon Zest Topping], 
+
+No customers were affected by roll outages on day 11.
+On day 11 the store made $275.00. Breakdown: $175.10 Catering Customer(s), $34.20 Business Customer(s), $65.70 Casual Customer(s).
+On day 11 the store sold 69 rolls. Breakdown: 13 Jelly Roll(s), 16 Spring Roll(s), 16 Egg Roll(s), 13 Pastry Roll(s), 11 Sausage Roll(s).
+The inventory has:  27 Jelly Roll(s), 19 Spring Roll(s), 7 Egg Roll(s), 7 Pastry Roll(s), 28 Sausage Roll(s).
+No inventory was restocked.
+-----------------------------------------------------------
+It is day 12.
+The inventory has:  27 Jelly Roll(s), 19 Spring Roll(s), 7 Egg Roll(s), 7 Pastry Roll(s), 28 Sausage Roll(s).
+Business Customer order cost $42.00 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], 
+	[Pastry Roll], [Pastry Roll, 2 Chocolate Sauce], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 2 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], 
+
+Catering Customer order cost $61.20 with  5 Egg Roll(s), 5 Pastry Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce], [Egg Roll, 3 Soy Sauce, 1 Lemon Zest Topping], [Egg Roll, 1 Soy Sauce], 
+	[Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+	[Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], 
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce], [Sausage Roll, 1 Sausage Filling, 2 Cheese Topping], 
+
+Casual Customer order cost $10.30 with  1 Jelly Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+
+Casual Customer order cost $6.00 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+
+Casual Customer order cost $7.40 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+
+Casual Customer order cost $5.60 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 3 Worcestershire Sauce, 1 Cheese Topping], 
+
+Casual Customer order cost $3.10 with  1 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 1 Jelly Filling, 2 Crumb Topping], 
+
+Casual Customer order cost $8.50 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], 
+
+Casual Customer order cost $3.40 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Worcestershire Sauce], 
+
+Casual Customer order cost $5.60 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 3 Worcestershire Sauce, 1 Cheese Topping], 
+
+Casual Customer order cost $5.20 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], 
+
+Casual Customer order cost $6.40 with  1 Jelly Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Jelly Roll, 1 Berry Sauce], [Sausage Roll, 1 Worcestershire Sauce, 2 Cheese Topping], 
+
+Casual Customer order cost $11.30 with  2 Jelly Roll(s), 1 Spring Roll(s),  Receipt:
+	[Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], [Spring Roll, 3 Sweet & Spicy Sauce], [Jelly Roll, 1 Berry Sauce], 
+
+6 Casual Customer(s) did not fill their original orders on day 12 due to roll outages.
+On day 12 the store made $176.00. Breakdown: $61.20 Catering Customer(s), $42.00 Business Customer(s), $72.80 Casual Customer(s).
+On day 12 the store sold 40 rolls. Breakdown: 7 Jelly Roll(s), 5 Spring Roll(s), 7 Egg Roll(s), 7 Pastry Roll(s), 14 Sausage Roll(s).
+The inventory has:  20 Jelly Roll(s), 14 Spring Roll(s), 0 Egg Roll(s), 0 Pastry Roll(s), 14 Sausage Roll(s).
+The inventory was restocked with 45 Egg Roll(s), 45 Pastry Roll(s).
+-----------------------------------------------------------
+It is day 13.
+The inventory has:  20 Jelly Roll(s), 14 Spring Roll(s), 45 Egg Roll(s), 45 Pastry Roll(s), 14 Sausage Roll(s).
+Catering Customer order cost $56.20 with  5 Jelly Roll(s), 5 Pastry Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+	[Pastry Roll, 1 Cinnamon Filling], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], [Jelly Roll], 
+	[Jelly Roll, 1 Crumb Topping], [Jelly Roll, 1 Crumb Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Cheese Topping], 
+	[Sausage Roll, 1 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 2 Cheese Topping], 
+
+Business Customer order cost $37.30 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling], [Egg Roll, 1 Lemon Zest Topping], [Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce], 
+	[Pastry Roll, 1 Chocolate Sauce], [Pastry Roll, 2 Chocolate Sauce], [Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], 
+	[Spring Roll, 1 Sweet & Spicy Sauce], [Spring Roll, 1 Vegetable Filling, 2 Nut Topping], 
+
+Casual Customer order cost $13.60 with  1 Jelly Roll(s), 2 Sausage Roll(s),  Receipt:
+	[Jelly Roll, 2 Berry Sauce, 2 Crumb Topping], [Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce], 
+
+Casual Customer order cost $12.10 with  1 Egg Roll(s), 2 Pastry Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling], [Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+
+Casual Customer order cost $1.60 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce], 
+
+Casual Customer order cost $2.20 with  1 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 1 Berry Sauce], 
+
+Casual Customer order cost $5.70 with  1 Jelly Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 2 Whipped Cream Topping], [Jelly Roll, 1 Jelly Filling, 2 Crumb Topping], 
+
+Casual Customer order cost $12.10 with  1 Egg Roll(s), 2 Sausage Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling], 
+
+Casual Customer order cost $7.70 with  3 Egg Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling], [Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $10.10 with  2 Egg Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Lemon Zest Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Cheese Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $5.00 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Sweet & Spicy Sauce], 
+
+Casual Customer order cost $6.30 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+
+Casual Customer order cost $16.40 with  1 Pastry Roll(s), 2 Spring Roll(s),  Receipt:
+	[Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], [Spring Roll, 1 Vegetable Filling, 1 Nut Topping], 
+
+Casual Customer order cost $2.80 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 1 Chocolate Sauce], 
+
+No customers were affected by roll outages on day 13.
+On day 13 the store made $189.10. Breakdown: $56.20 Catering Customer(s), $37.30 Business Customer(s), $95.60 Casual Customer(s).
+On day 13 the store sold 50 rolls. Breakdown: 10 Jelly Roll(s), 5 Spring Roll(s), 10 Egg Roll(s), 13 Pastry Roll(s), 12 Sausage Roll(s).
+The inventory has:  10 Jelly Roll(s), 9 Spring Roll(s), 35 Egg Roll(s), 32 Pastry Roll(s), 2 Sausage Roll(s).
+No inventory was restocked.
+-----------------------------------------------------------
+It is day 14.
+The inventory has:  10 Jelly Roll(s), 9 Spring Roll(s), 35 Egg Roll(s), 32 Pastry Roll(s), 2 Sausage Roll(s).
+Business Customer order cost $43.80 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 2 Lemon Zest Topping], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], 
+	[Pastry Roll, 2 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling], [Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+
+Catering Customer order cost $56.80 with  5 Egg Roll(s), 5 Pastry Roll(s), 5 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce], [Spring Roll, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll], [Spring Roll, 1 Sweet & Spicy Sauce], 
+	[Spring Roll, 1 Nut Topping], [Pastry Roll, 2 Chocolate Sauce], [Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+	[Pastry Roll, 1 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Whipped Cream Topping], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce], 
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 1 Pork Filling], 
+
+Casual Customer order cost $5.70 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling], 
+
+Casual Customer order cost $6.30 with  1 Jelly Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Jelly Roll, 1 Jelly Filling], [Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+
+Casual Customer order cost $11.00 with  1 Egg Roll(s), 2 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 2 Chocolate Sauce], [Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $5.40 with  1 Egg Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Pastry Roll], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], 
+
+2 Business Customer(s), 2 Casual Customer(s) did not fill their original orders on day 14 due to roll outages.
+On day 14 the store made $129.00. Breakdown: $56.80 Catering Customer(s), $43.80 Business Customer(s), $28.40 Casual Customer(s).
+On day 14 the store sold 33 rolls. Breakdown: 3 Jelly Roll(s), 7 Spring Roll(s), 9 Egg Roll(s), 12 Pastry Roll(s), 2 Sausage Roll(s).
+The inventory has:  7 Jelly Roll(s), 2 Spring Roll(s), 26 Egg Roll(s), 20 Pastry Roll(s), 0 Sausage Roll(s).
+The inventory was restocked with 45 Sausage Roll(s).
+-----------------------------------------------------------
+It is day 15.
+The inventory has:  7 Jelly Roll(s), 2 Spring Roll(s), 26 Egg Roll(s), 20 Pastry Roll(s), 45 Sausage Roll(s).
+Casual Customer order cost $7.00 with  1 Egg Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Sausage Roll, 1 Cheese Topping], 
+
+Catering Customer order cost $64.70 with  5 Jelly Roll(s), 5 Pastry Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce], 
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], [Pastry Roll], [Pastry Roll, 2 Chocolate Sauce], [Pastry Roll, 1 Chocolate Sauce], 
+	[Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Jelly Roll, 2 Berry Sauce], [Jelly Roll, 1 Jelly Filling, 1 Crumb Topping], 
+	[Jelly Roll, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 3 Berry Sauce], 
+
+Casual Customer order cost $6.60 with  2 Egg Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling], [Egg Roll, 1 Soy Sauce, 1 Pork Filling], 
+
+Casual Customer order cost $11.10 with  1 Egg Roll(s), 1 Jelly Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Jelly Roll, 2 Berry Sauce, 1 Jelly Filling], [Egg Roll, 3 Soy Sauce], [Pastry Roll, 2 Chocolate Sauce, 2 Whipped Cream Topping], 
+
+Casual Customer order cost $1.60 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce], 
+
+Catering Customer order cost $57.60 with  6 Egg Roll(s), 5 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling], 
+	[Sausage Roll], [Egg Roll, 1 Soy Sauce], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], 
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce, 2 Lemon Zest Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Whipped Cream Topping], 
+	[Pastry Roll, 2 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling], 
+
+Casual Customer order cost $3.30 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 1 Cinnamon Filling], 
+
+Casual Customer order cost $2.80 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 1 Chocolate Sauce], 
+
+Casual Customer order cost $7.50 with  1 Pastry Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Pastry Roll, 3 Chocolate Sauce, 2 Whipped Cream Topping], [Sausage Roll], 
+
+Casual Customer order cost $10.60 with  1 Egg Roll(s), 1 Jelly Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 2 Chocolate Sauce], [Egg Roll, 3 Soy Sauce, 2 Lemon Zest Topping], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], 
+
+Casual Customer order cost $6.00 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], 
+
+Casual Customer order cost $2.60 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 2 Whipped Cream Topping], 
+
+Casual Customer order cost $16.40 with  3 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+
+Casual Customer order cost $7.60 with  1 Egg Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], [Egg Roll, 3 Soy Sauce, 1 Lemon Zest Topping], 
+
+1 Catering Customer(s), 2 Business Customer(s), 5 Casual Customer(s) did not fill their original orders on day 15 due to roll outages.
+On day 15 the store made $205.40. Breakdown: $122.30 Catering Customer(s), $0.00 Business Customer(s), $83.10 Casual Customer(s).
+On day 15 the store sold 52 rolls. Breakdown: 7 Jelly Roll(s), 2 Spring Roll(s), 13 Egg Roll(s), 16 Pastry Roll(s), 14 Sausage Roll(s).
+The inventory has:  0 Jelly Roll(s), 0 Spring Roll(s), 13 Egg Roll(s), 4 Pastry Roll(s), 31 Sausage Roll(s).
+The inventory was restocked with 45 Jelly Roll(s), 45 Spring Roll(s).
+-----------------------------------------------------------
+It is day 16.
+The inventory has:  45 Jelly Roll(s), 45 Spring Roll(s), 13 Egg Roll(s), 4 Pastry Roll(s), 31 Sausage Roll(s).
+Business Customer order cost $39.50 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 2 Crumb Topping], 
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling], [Pastry Roll, 2 Whipped Cream Topping], [Sausage Roll], [Sausage Roll, 1 Sausage Filling, 2 Cheese Topping], 
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling], [Spring Roll, 2 Nut Topping], 
+
+Business Customer order cost $34.70 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 1 Lemon Zest Topping], [Jelly Roll, 1 Berry Sauce], [Jelly Roll, 2 Berry Sauce, 2 Crumb Topping], 
+	[Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling], [Sausage Roll, 2 Cheese Topping], [Sausage Roll, 2 Cheese Topping], 
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 1 Nut Topping], 
+
+Casual Customer order cost $2.20 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce], 
+
+Catering Customer order cost $65.60 with  5 Egg Roll(s), 5 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 1 Soy Sauce], [Egg Roll, 1 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling], 
+	[Egg Roll, 2 Soy Sauce, 1 Lemon Zest Topping], [Sausage Roll, 1 Sausage Filling], [Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Cheese Topping], 
+	[Sausage Roll, 1 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 2 Cheese Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling], [Spring Roll, 1 Vegetable Filling, 2 Nut Topping], 
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 1 Vegetable Filling], 
+
+Catering Customer order cost $62.50 with  3 Egg Roll(s), 7 Jelly Roll(s), 3 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Egg Roll, 3 Soy Sauce, 1 Lemon Zest Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 2 Nut Topping], [Egg Roll, 1 Lemon Zest Topping], 
+	[Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], [Jelly Roll], 
+	[Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Egg Roll, 3 Soy Sauce], [Sausage Roll], 
+	[Jelly Roll, 2 Berry Sauce, 1 Jelly Filling], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], 
+
+Casual Customer order cost $3.60 with  1 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], 
+
+Casual Customer order cost $9.30 with  1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 2 Nut Topping], 
+
+Casual Customer order cost $7.00 with  1 Jelly Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Jelly Roll, 1 Jelly Filling, 2 Crumb Topping], [Sausage Roll, 1 Sausage Filling], 
+
+Casual Customer order cost $11.70 with  1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], 
+
+Casual Customer order cost $6.50 with  2 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 1 Jelly Filling], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], 
+
+Casual Customer order cost $8.90 with  1 Jelly Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Sausage Filling], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], 
+
+Casual Customer order cost $7.40 with  1 Jelly Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], [Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], 
+
+Casual Customer order cost $2.90 with  1 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 1 Jelly Filling, 1 Crumb Topping], 
+
+Casual Customer order cost $4.80 with  1 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 3 Berry Sauce, 1 Jelly Filling], 
+
+1 Catering Customer(s), 5 Casual Customer(s) did not fill their original orders on day 16 due to roll outages.
+On day 16 the store made $266.60. Breakdown: $128.10 Catering Customer(s), $74.20 Business Customer(s), $64.30 Casual Customer(s).
+On day 16 the store sold 66 rolls. Breakdown: 19 Jelly Roll(s), 13 Spring Roll(s), 13 Egg Roll(s), 4 Pastry Roll(s), 17 Sausage Roll(s).
+The inventory has:  26 Jelly Roll(s), 32 Spring Roll(s), 0 Egg Roll(s), 0 Pastry Roll(s), 14 Sausage Roll(s).
+The inventory was restocked with 45 Egg Roll(s), 45 Pastry Roll(s).
+-----------------------------------------------------------
+It is day 17.
+The inventory has:  26 Jelly Roll(s), 32 Spring Roll(s), 45 Egg Roll(s), 45 Pastry Roll(s), 14 Sausage Roll(s).
+Catering Customer order cost $66.10 with  5 Jelly Roll(s), 5 Pastry Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 3 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll], [Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], 
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], 
+	[Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], 
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling], [Pastry Roll, 1 Whipped Cream Topping], 
+
+Business Customer order cost $41.70 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Lemon Zest Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Jelly Roll, 1 Berry Sauce], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], 
+	[Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Whipped Cream Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], 
+	[Spring Roll], [Spring Roll, 3 Sweet & Spicy Sauce], 
+
+Catering Customer order cost $69.50 with  5 Pastry Roll(s), 5 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Sausage Roll, 1 Sausage Filling], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], [Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Cheese Topping], 
+	[Sausage Roll, 3 Worcestershire Sauce], [Pastry Roll, 2 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+	[Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling], [Spring Roll, 1 Nut Topping], [Spring Roll, 1 Nut Topping], 
+	[Spring Roll, 1 Nut Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling], [Spring Roll, 3 Sweet & Spicy Sauce, 2 Nut Topping], 
+
+Casual Customer order cost $10.70 with  1 Jelly Roll(s), 1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Spring Roll, 1 Sweet & Spicy Sauce], [Jelly Roll], 
+
+Casual Customer order cost $12.60 with  1 Jelly Roll(s), 1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce, 2 Nut Topping], [Jelly Roll], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], 
+
+Casual Customer order cost $6.00 with  1 Egg Roll(s), 1 Spring Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 2 Lemon Zest Topping], [Spring Roll], 
+
+Casual Customer order cost $5.20 with  1 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], 
+
+Casual Customer order cost $10.00 with  1 Egg Roll(s), 1 Pastry Roll(s), 1 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce], [Pastry Roll, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Nut Topping], 
+
+Casual Customer order cost $16.10 with  1 Egg Roll(s), 1 Jelly Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $11.70 with  1 Pastry Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling], 
+
+Casual Customer order cost $4.90 with  1 Jelly Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Jelly Roll, 2 Berry Sauce], [Pastry Roll], 
+
+Casual Customer order cost $4.00 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce], 
+
+Casual Customer order cost $2.80 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $5.50 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling], 
+
+2 Casual Customer(s) did not fill their original orders on day 17 due to roll outages.
+On day 17 the store made $266.80. Breakdown: $135.60 Catering Customer(s), $41.70 Business Customer(s), $89.50 Casual Customer(s).
+On day 17 the store sold 62 rolls. Breakdown: 12 Jelly Roll(s), 15 Spring Roll(s), 6 Egg Roll(s), 15 Pastry Roll(s), 14 Sausage Roll(s).
+The inventory has:  14 Jelly Roll(s), 17 Spring Roll(s), 39 Egg Roll(s), 30 Pastry Roll(s), 0 Sausage Roll(s).
+The inventory was restocked with 45 Sausage Roll(s).
+-----------------------------------------------------------
+It is day 18.
+The inventory has:  14 Jelly Roll(s), 17 Spring Roll(s), 39 Egg Roll(s), 30 Pastry Roll(s), 45 Sausage Roll(s).
+Catering Customer order cost $65.30 with  5 Jelly Roll(s), 5 Pastry Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce], 
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], 
+	[Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 3 Berry Sauce], [Sausage Roll, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce], 
+	[Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], 
+
+Catering Customer order cost $66.20 with  5 Jelly Roll(s), 5 Pastry Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+	[Pastry Roll, 2 Chocolate Sauce, 2 Whipped Cream Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], 
+	[Sausage Roll, 2 Worcestershire Sauce], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Jelly Roll, 1 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 2 Crumb Topping], 
+	[Jelly Roll, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 3 Berry Sauce], 
+
+Casual Customer order cost $3.60 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 2 Chocolate Sauce], 
+
+Casual Customer order cost $8.00 with  2 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 2 Cheese Topping], 
+
+Business Customer order cost $34.50 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce], [Egg Roll, 2 Lemon Zest Topping], [Jelly Roll], [Jelly Roll, 2 Berry Sauce, 2 Crumb Topping], 
+	[Pastry Roll, 1 Chocolate Sauce], [Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], [Sausage Roll, 1 Sausage Filling], [Sausage Roll, 2 Cheese Topping], 
+	[Spring Roll, 1 Sweet & Spicy Sauce, 2 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+
+No customers were affected by roll outages on day 18.
+On day 18 the store made $177.60. Breakdown: $131.50 Catering Customer(s), $34.50 Business Customer(s), $11.60 Casual Customer(s).
+On day 18 the store sold 43 rolls. Breakdown: 12 Jelly Roll(s), 2 Spring Roll(s), 2 Egg Roll(s), 13 Pastry Roll(s), 14 Sausage Roll(s).
+The inventory has:  2 Jelly Roll(s), 15 Spring Roll(s), 37 Egg Roll(s), 17 Pastry Roll(s), 31 Sausage Roll(s).
+No inventory was restocked.
+-----------------------------------------------------------
+It is day 19.
+The inventory has:  2 Jelly Roll(s), 15 Spring Roll(s), 37 Egg Roll(s), 17 Pastry Roll(s), 31 Sausage Roll(s).
+Catering Customer order cost $54.80 with  5 Egg Roll(s), 2 Jelly Roll(s), 3 Pastry Roll(s), 5 Spring Roll(s),  Receipt:
+	[Jelly Roll, 2 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 1 Berry Sauce], [Pastry Roll, 2 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling], 
+	[Pastry Roll, 3 Chocolate Sauce], [Spring Roll, 2 Nut Topping], [Spring Roll, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce], 
+	[Spring Roll, 1 Sweet & Spicy Sauce, 2 Nut Topping], [Spring Roll], [Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], 
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling], [Egg Roll, 1 Soy Sauce], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $6.50 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Nut Topping], 
+
+Casual Customer order cost $9.90 with  1 Pastry Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+
+1 Catering Customer(s), 3 Business Customer(s) did not fill their original orders on day 19 due to roll outages.
+On day 19 the store made $71.20. Breakdown: $54.80 Catering Customer(s), $0.00 Business Customer(s), $16.40 Casual Customer(s).
+On day 19 the store sold 18 rolls. Breakdown: 2 Jelly Roll(s), 6 Spring Roll(s), 5 Egg Roll(s), 4 Pastry Roll(s), 1 Sausage Roll(s).
+The inventory has:  0 Jelly Roll(s), 9 Spring Roll(s), 32 Egg Roll(s), 13 Pastry Roll(s), 30 Sausage Roll(s).
+The inventory was restocked with 45 Jelly Roll(s).
+-----------------------------------------------------------
+It is day 20.
+The inventory has:  45 Jelly Roll(s), 9 Spring Roll(s), 32 Egg Roll(s), 13 Pastry Roll(s), 30 Sausage Roll(s).
+Catering Customer order cost $51.70 with  5 Egg Roll(s), 5 Jelly Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce], 
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Jelly Roll, 2 Berry Sauce], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 2 Crumb Topping], 
+	[Jelly Roll, 3 Berry Sauce], [Jelly Roll, 1 Jelly Filling, 1 Crumb Topping], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], 
+	[Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 1 Pork Filling], 
+
+Business Customer order cost $37.30 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], [Jelly Roll, 3 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 2 Crumb Topping], 
+	[Pastry Roll, 2 Whipped Cream Topping], [Pastry Roll, 2 Whipped Cream Topping], [Sausage Roll, 2 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], 
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce], 
+
+Casual Customer order cost $12.20 with  1 Egg Roll(s), 1 Jelly Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling], [Jelly Roll, 1 Jelly Filling, 1 Crumb Topping], 
+
+Casual Customer order cost $5.80 with  1 Jelly Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 1 Chocolate Sauce, 1 Whipped Cream Topping], [Jelly Roll, 1 Jelly Filling], 
+
+Casual Customer order cost $10.00 with  2 Jelly Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 1 Cinnamon Filling], [Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], 
+
+Casual Customer order cost $12.60 with  1 Jelly Roll(s), 2 Sausage Roll(s),  Receipt:
+	[Jelly Roll, 1 Berry Sauce, 1 Crumb Topping], [Sausage Roll, 1 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], 
+
+Casual Customer order cost $9.10 with  1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Sausage Roll, 3 Worcestershire Sauce, 1 Cheese Topping], [Spring Roll, 1 Nut Topping], 
+
+Casual Customer order cost $12.00 with  1 Jelly Roll(s), 1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Sausage Roll, 1 Sausage Filling], [Spring Roll, 2 Sweet & Spicy Sauce], [Jelly Roll, 1 Jelly Filling, 2 Crumb Topping], 
+
+Casual Customer order cost $8.50 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], 
+
+Casual Customer order cost $11.40 with  1 Pastry Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+
+No customers were affected by roll outages on day 20.
+On day 20 the store made $170.60. Breakdown: $51.70 Catering Customer(s), $37.30 Business Customer(s), $81.60 Casual Customer(s).
+On day 20 the store sold 44 rolls. Breakdown: 13 Jelly Roll(s), 7 Spring Roll(s), 8 Egg Roll(s), 5 Pastry Roll(s), 11 Sausage Roll(s).
+The inventory has:  32 Jelly Roll(s), 2 Spring Roll(s), 24 Egg Roll(s), 8 Pastry Roll(s), 19 Sausage Roll(s).
+No inventory was restocked.
+-----------------------------------------------------------
+It is day 21.
+The inventory has:  32 Jelly Roll(s), 2 Spring Roll(s), 24 Egg Roll(s), 8 Pastry Roll(s), 19 Sausage Roll(s).
+Business Customer order cost $41.00 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], 
+	[Pastry Roll], [Pastry Roll, 1 Cinnamon Filling], [Sausage Roll, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll], 
+	[Spring Roll, 3 Sweet & Spicy Sauce], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+
+Casual Customer order cost $3.30 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling], 
+
+Casual Customer order cost $13.90 with  1 Egg Roll(s), 2 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Pastry Roll, 3 Chocolate Sauce, 2 Whipped Cream Topping], 
+
+Catering Customer order cost $59.50 with  6 Egg Roll(s), 4 Pastry Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Pastry Roll, 2 Chocolate Sauce], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+	[Pastry Roll, 3 Chocolate Sauce, 1 Whipped Cream Topping], [Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce, 1 Pork Filling], [Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], 
+	[Egg Roll, 2 Soy Sauce, 1 Lemon Zest Topping], [Egg Roll, 2 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce], 
+
+Catering Customer order cost $66.40 with  4 Egg Roll(s), 6 Jelly Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], 
+	[Jelly Roll, 1 Berry Sauce, 2 Crumb Topping], [Egg Roll, 2 Soy Sauce, 1 Lemon Zest Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], 
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], 
+	[Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], 
+
+Casual Customer order cost $7.50 with  2 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 2 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], 
+
+Catering Customer order cost $68.10 with  2 Egg Roll(s), 7 Jelly Roll(s), 6 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling], [Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], 
+	[Egg Roll, 2 Soy Sauce], [Jelly Roll, 2 Berry Sauce], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], 
+	[Jelly Roll, 2 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], 
+	[Jelly Roll, 3 Berry Sauce, 1 Crumb Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+
+3 Catering Customer(s), 2 Business Customer(s), 1 Casual Customer(s) did not fill their original orders on day 21 due to roll outages.
+On day 21 the store made $259.70. Breakdown: $194.00 Catering Customer(s), $41.00 Business Customer(s), $24.70 Casual Customer(s).
+On day 21 the store sold 61 rolls. Breakdown: 17 Jelly Roll(s), 2 Spring Roll(s), 16 Egg Roll(s), 8 Pastry Roll(s), 18 Sausage Roll(s).
+The inventory has:  15 Jelly Roll(s), 0 Spring Roll(s), 8 Egg Roll(s), 0 Pastry Roll(s), 1 Sausage Roll(s).
+The inventory was restocked with 45 Spring Roll(s), 45 Pastry Roll(s).
+-----------------------------------------------------------
+It is day 22.
+The inventory has:  15 Jelly Roll(s), 45 Spring Roll(s), 8 Egg Roll(s), 45 Pastry Roll(s), 1 Sausage Roll(s).
+Casual Customer order cost $4.30 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 2 Worcestershire Sauce], 
+
+Catering Customer order cost $61.00 with  3 Jelly Roll(s), 7 Pastry Roll(s), 5 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Vegetable Filling], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 1 Nut Topping], 
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling], 
+	[Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], [Jelly Roll, 2 Berry Sauce], [Pastry Roll, 2 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], 
+	[Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling], 
+
+Catering Customer order cost $64.70 with  5 Egg Roll(s), 1 Jelly Roll(s), 1 Pastry Roll(s), 8 Spring Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling], [Egg Roll, 3 Soy Sauce, 1 Pork Filling], [Egg Roll, 3 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], 
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Spring Roll, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll], [Spring Roll, 3 Sweet & Spicy Sauce], 
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Nut Topping], [Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], [Spring Roll, 1 Vegetable Filling, 1 Nut Topping], 
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Nut Topping], [Jelly Roll], [Spring Roll, 1 Vegetable Filling, 1 Nut Topping], 
+
+Casual Customer order cost $4.70 with  1 Egg Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 2 Whipped Cream Topping], [Egg Roll, 1 Pork Filling], 
+
+Casual Customer order cost $11.50 with  1 Egg Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Egg Roll, 3 Soy Sauce, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $8.40 with  1 Egg Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Nut Topping], [Egg Roll, 3 Soy Sauce, 1 Pork Filling], 
+
+2 Catering Customer(s), 3 Business Customer(s), 1 Casual Customer(s) did not fill their original orders on day 22 due to roll outages.
+On day 22 the store made $154.60. Breakdown: $125.70 Catering Customer(s), $0.00 Business Customer(s), $28.90 Casual Customer(s).
+On day 22 the store sold 37 rolls. Breakdown: 4 Jelly Roll(s), 15 Spring Roll(s), 8 Egg Roll(s), 9 Pastry Roll(s), 1 Sausage Roll(s).
+The inventory has:  11 Jelly Roll(s), 30 Spring Roll(s), 0 Egg Roll(s), 36 Pastry Roll(s), 0 Sausage Roll(s).
+The inventory was restocked with 45 Egg Roll(s), 45 Sausage Roll(s).
+-----------------------------------------------------------
+It is day 23.
+The inventory has:  11 Jelly Roll(s), 30 Spring Roll(s), 45 Egg Roll(s), 36 Pastry Roll(s), 45 Sausage Roll(s).
+Business Customer order cost $43.30 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 2 Crumb Topping], 
+	[Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 2 Cheese Topping], 
+	[Spring Roll, 2 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+
+Business Customer order cost $37.80 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 1 Soy Sauce], [Jelly Roll, 1 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 1 Crumb Topping], 
+	[Pastry Roll], [Pastry Roll, 2 Whipped Cream Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+
+Business Customer order cost $40.00 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 1 Jelly Filling, 1 Crumb Topping], 
+	[Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling], [Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], 
+	[Spring Roll, 1 Nut Topping], [Spring Roll, 1 Nut Topping], 
+
+Casual Customer order cost $14.10 with  1 Egg Roll(s), 1 Pastry Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Lemon Zest Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Pastry Roll, 3 Chocolate Sauce, 2 Whipped Cream Topping], 
+
+Catering Customer order cost $62.60 with  5 Jelly Roll(s), 5 Pastry Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], 
+	[Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll], 
+	[Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Sausage Roll, 1 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Cheese Topping], 
+	[Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], 
+
+Casual Customer order cost $11.30 with  1 Egg Roll(s), 1 Pastry Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 2 Lemon Zest Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], [Pastry Roll, 2 Chocolate Sauce, 2 Whipped Cream Topping], 
+
+Catering Customer order cost $62.60 with  5 Egg Roll(s), 5 Pastry Roll(s), 5 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling], [Egg Roll, 2 Soy Sauce, 2 Lemon Zest Topping], 
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling], [Spring Roll, 3 Sweet & Spicy Sauce], [Spring Roll, 3 Sweet & Spicy Sauce], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll], [Pastry Roll, 3 Chocolate Sauce, 2 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce], 
+	[Pastry Roll, 1 Cinnamon Filling], [Pastry Roll, 2 Chocolate Sauce], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling], 
+
+Casual Customer order cost $1.20 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 2 Lemon Zest Topping], 
+
+Catering Customer order cost $57.30 with  6 Egg Roll(s), 7 Pastry Roll(s), 1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce, 1 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], 
+	[Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling], [Pastry Roll, 3 Chocolate Sauce, 1 Whipped Cream Topping], 
+	[Pastry Roll, 3 Chocolate Sauce, 1 Whipped Cream Topping], [Pastry Roll], [Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce], 
+	[Spring Roll, 1 Sweet & Spicy Sauce, 2 Nut Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], [Egg Roll, 3 Soy Sauce, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $3.40 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $2.40 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $11.50 with  1 Pastry Roll(s), 1 Spring Roll(s),  Receipt:
+	[Pastry Roll, 3 Chocolate Sauce, 2 Whipped Cream Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Nut Topping], 
+
+Casual Customer order cost $9.40 with  1 Egg Roll(s), 1 Pastry Roll(s), 1 Spring Roll(s),  Receipt:
+	[Pastry Roll, 1 Cinnamon Filling], [Egg Roll, 1 Soy Sauce], [Spring Roll, 1 Vegetable Filling], 
+
+1 Catering Customer(s), 3 Casual Customer(s) did not fill their original orders on day 23 due to roll outages.
+On day 23 the store made $356.90. Breakdown: $182.50 Catering Customer(s), $121.10 Business Customer(s), $53.30 Casual Customer(s).
+On day 23 the store sold 89 rolls. Breakdown: 11 Jelly Roll(s), 14 Spring Roll(s), 23 Egg Roll(s), 27 Pastry Roll(s), 14 Sausage Roll(s).
+The inventory has:  0 Jelly Roll(s), 16 Spring Roll(s), 22 Egg Roll(s), 9 Pastry Roll(s), 31 Sausage Roll(s).
+The inventory was restocked with 45 Jelly Roll(s).
+-----------------------------------------------------------
+It is day 24.
+The inventory has:  45 Jelly Roll(s), 16 Spring Roll(s), 22 Egg Roll(s), 9 Pastry Roll(s), 31 Sausage Roll(s).
+Business Customer order cost $44.40 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Crumb Topping], 
+	[Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], [Sausage Roll, 2 Cheese Topping], 
+	[Spring Roll, 1 Vegetable Filling], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Nut Topping], 
+
+Casual Customer order cost $4.00 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $6.00 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Sweet & Spicy Sauce, 2 Nut Topping], 
+
+Casual Customer order cost $1.00 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll], 
+
+Business Customer order cost $42.80 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll], [Egg Roll, 1 Soy Sauce, 2 Lemon Zest Topping], [Jelly Roll], [Jelly Roll], 
+	[Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling], [Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], 
+
+Catering Customer order cost $71.00 with  5 Pastry Roll(s), 5 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Pastry Roll, 1 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling], [Pastry Roll, 1 Cinnamon Filling], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+	[Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], [Sausage Roll, 2 Worcestershire Sauce], [Sausage Roll, 1 Sausage Filling], 
+	[Sausage Roll, 1 Sausage Filling], [Sausage Roll, 2 Cheese Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll, 1 Vegetable Filling, 1 Nut Topping], 
+
+Catering Customer order cost $57.00 with  8 Egg Roll(s), 1 Sausage Roll(s), 6 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll], 
+	[Spring Roll, 1 Vegetable Filling, 1 Nut Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling], [Egg Roll, 2 Soy Sauce, 1 Lemon Zest Topping], [Egg Roll, 1 Soy Sauce, 1 Lemon Zest Topping], 
+	[Egg Roll, 1 Pork Filling], [Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Egg Roll, 3 Soy Sauce, 2 Lemon Zest Topping], 
+	[Egg Roll, 1 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+
+Casual Customer order cost $5.60 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+
+Casual Customer order cost $3.40 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $8.00 with  1 Egg Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], 
+
+Casual Customer order cost $2.10 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 1 Pork Filling], 
+
+Casual Customer order cost $7.40 with  2 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 1 Jelly Filling, 2 Crumb Topping], 
+
+Casual Customer order cost $11.20 with  1 Egg Roll(s), 1 Jelly Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+
+Casual Customer order cost $5.90 with  1 Egg Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Egg Roll, 2 Lemon Zest Topping], [Sausage Roll, 1 Sausage Filling, 2 Cheese Topping], 
+
+Casual Customer order cost $6.10 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], 
+
+1 Catering Customer(s), 1 Business Customer(s), 2 Casual Customer(s) did not fill their original orders on day 24 due to roll outages.
+On day 24 the store made $275.90. Breakdown: $128.00 Catering Customer(s), $87.20 Business Customer(s), $60.70 Casual Customer(s).
+On day 24 the store sold 66 rolls. Breakdown: 7 Jelly Roll(s), 16 Spring Roll(s), 19 Egg Roll(s), 9 Pastry Roll(s), 15 Sausage Roll(s).
+The inventory has:  38 Jelly Roll(s), 0 Spring Roll(s), 3 Egg Roll(s), 0 Pastry Roll(s), 16 Sausage Roll(s).
+The inventory was restocked with 45 Spring Roll(s), 45 Pastry Roll(s).
+-----------------------------------------------------------
+It is day 25.
+The inventory has:  38 Jelly Roll(s), 45 Spring Roll(s), 3 Egg Roll(s), 45 Pastry Roll(s), 16 Sausage Roll(s).
+Business Customer order cost $42.00 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 1 Jelly Filling], 
+	[Pastry Roll, 2 Chocolate Sauce], [Pastry Roll, 3 Chocolate Sauce], [Sausage Roll, 1 Worcestershire Sauce], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], 
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Nut Topping], 
+
+Catering Customer order cost $61.60 with  1 Egg Roll(s), 8 Jelly Roll(s), 1 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], 
+	[Jelly Roll, 2 Crumb Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce], [Spring Roll, 2 Nut Topping], 
+	[Spring Roll, 1 Vegetable Filling], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], 
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Cheese Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce], 
+
+Catering Customer order cost $71.90 with  5 Jelly Roll(s), 5 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll], [Spring Roll, 3 Sweet & Spicy Sauce, 2 Nut Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Nut Topping], [Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], 
+	[Jelly Roll, 3 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 1 Jelly Filling, 1 Crumb Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], 
+
+Casual Customer order cost $14.30 with  2 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Nut Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], 
+
+Casual Customer order cost $6.30 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+
+Catering Customer order cost $78.50 with  5 Pastry Roll(s), 5 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce], [Pastry Roll, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Sausage Roll, 2 Worcestershire Sauce], [Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+	[Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 1 Sausage Filling], [Spring Roll, 2 Sweet & Spicy Sauce], [Spring Roll, 1 Sweet & Spicy Sauce, 2 Nut Topping], 
+	[Spring Roll, 1 Vegetable Filling], [Spring Roll, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], 
+
+Casual Customer order cost $10.40 with  1 Jelly Roll(s), 1 Spring Roll(s),  Receipt:
+	[Jelly Roll, 1 Berry Sauce, 1 Crumb Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+
+Casual Customer order cost $7.00 with  1 Jelly Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Sausage Roll], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], 
+
+Casual Customer order cost $12.40 with  1 Pastry Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling], 
+
+Casual Customer order cost $7.00 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+
+Casual Customer order cost $19.50 with  1 Jelly Roll(s), 2 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], [Spring Roll, 3 Sweet & Spicy Sauce, 2 Nut Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], 
+
+Casual Customer order cost $3.50 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Nut Topping], 
+
+Casual Customer order cost $7.00 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce, 2 Nut Topping], 
+
+1 Catering Customer(s), 2 Business Customer(s), 6 Casual Customer(s) did not fill their original orders on day 25 due to roll outages.
+On day 25 the store made $341.40. Breakdown: $212.00 Catering Customer(s), $42.00 Business Customer(s), $87.40 Casual Customer(s).
+On day 25 the store sold 71 rolls. Breakdown: 18 Jelly Roll(s), 25 Spring Roll(s), 3 Egg Roll(s), 9 Pastry Roll(s), 16 Sausage Roll(s).
+The inventory has:  20 Jelly Roll(s), 20 Spring Roll(s), 0 Egg Roll(s), 36 Pastry Roll(s), 0 Sausage Roll(s).
+The inventory was restocked with 45 Egg Roll(s), 45 Sausage Roll(s).
+-----------------------------------------------------------
+It is day 26.
+The inventory has:  20 Jelly Roll(s), 20 Spring Roll(s), 45 Egg Roll(s), 36 Pastry Roll(s), 45 Sausage Roll(s).
+Business Customer order cost $44.80 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling], [Egg Roll, 2 Soy Sauce, 1 Pork Filling], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 2 Berry Sauce], 
+	[Pastry Roll, 3 Chocolate Sauce, 2 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Sausage Roll, 1 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], 
+	[Spring Roll, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Nut Topping], 
+
+Casual Customer order cost $6.10 with  1 Egg Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling], 
+
+Catering Customer order cost $67.90 with  5 Jelly Roll(s), 5 Pastry Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Jelly Roll, 2 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll], 
+	[Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 1 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+	[Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+	[Pastry Roll, 2 Chocolate Sauce], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce], 
+
+Catering Customer order cost $77.60 with  5 Jelly Roll(s), 5 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], 
+	[Spring Roll, 3 Sweet & Spicy Sauce, 2 Nut Topping], [Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 2 Cheese Topping], 
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], 
+	[Jelly Roll, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 2 Berry Sauce, 2 Crumb Topping], 
+
+Business Customer order cost $33.20 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce], [Egg Roll, 1 Lemon Zest Topping], [Jelly Roll, 1 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 1 Crumb Topping], 
+	[Pastry Roll], [Pastry Roll, 2 Chocolate Sauce], [Sausage Roll, 1 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 1 Cheese Topping], 
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Nut Topping], 
+
+Catering Customer order cost $65.70 with  5 Egg Roll(s), 5 Pastry Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Pastry Roll, 1 Chocolate Sauce, 1 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 2 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 2 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Whipped Cream Topping], 
+	[Pastry Roll, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+	[Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 2 Cheese Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce, 1 Lemon Zest Topping], 
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $14.20 with  1 Egg Roll(s), 1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling], [Egg Roll, 3 Soy Sauce, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $12.10 with  1 Jelly Roll(s), 1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Jelly Roll, 1 Berry Sauce, 1 Crumb Topping], [Sausage Roll, 1 Worcestershire Sauce, 2 Cheese Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling], 
+
+Casual Customer order cost $4.40 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+
+Casual Customer order cost $11.90 with  1 Pastry Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], [Pastry Roll, 3 Chocolate Sauce], 
+
+Casual Customer order cost $5.20 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], 
+
+Casual Customer order cost $8.70 with  1 Egg Roll(s), 2 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Egg Roll, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $7.30 with  1 Jelly Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Jelly Roll, 3 Berry Sauce, 1 Jelly Filling], [Sausage Roll], 
+
+Casual Customer order cost $11.70 with  1 Egg Roll(s), 1 Pastry Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Pastry Roll, 3 Chocolate Sauce, 1 Whipped Cream Topping], [Egg Roll, 2 Soy Sauce], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling], 
+
+Casual Customer order cost $12.70 with  2 Egg Roll(s), 1 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling], [Spring Roll, 3 Sweet & Spicy Sauce], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $4.80 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling], 
+
+Casual Customer order cost $16.80 with  1 Pastry Roll(s), 1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Sausage Roll, 2 Worcestershire Sauce], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+
+No customers were affected by roll outages on day 26.
+On day 26 the store made $405.10. Breakdown: $211.20 Catering Customer(s), $78.00 Business Customer(s), $115.90 Casual Customer(s).
+On day 26 the store sold 92 rolls. Breakdown: 16 Jelly Roll(s), 14 Spring Roll(s), 15 Egg Roll(s), 21 Pastry Roll(s), 26 Sausage Roll(s).
+The inventory has:  4 Jelly Roll(s), 6 Spring Roll(s), 30 Egg Roll(s), 15 Pastry Roll(s), 19 Sausage Roll(s).
+No inventory was restocked.
+-----------------------------------------------------------
+It is day 27.
+The inventory has:  4 Jelly Roll(s), 6 Spring Roll(s), 30 Egg Roll(s), 15 Pastry Roll(s), 19 Sausage Roll(s).
+Catering Customer order cost $57.00 with  5 Egg Roll(s), 5 Pastry Roll(s), 5 Spring Roll(s),  Receipt:
+	[Pastry Roll], [Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], 
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce], 
+	[Spring Roll, 2 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 2 Nut Topping], [Egg Roll, 1 Soy Sauce], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], 
+	[Egg Roll, 2 Soy Sauce], [Egg Roll, 1 Pork Filling], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $13.50 with  1 Jelly Roll(s), 1 Pastry Roll(s), 1 Spring Roll(s),  Receipt:
+	[Pastry Roll, 2 Whipped Cream Topping], [Jelly Roll, 1 Jelly Filling, 1 Crumb Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+
+Casual Customer order cost $1.70 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $8.70 with  1 Jelly Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+
+Casual Customer order cost $5.90 with  2 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], [Pastry Roll], 
+
+Catering Customer order cost $55.00 with  3 Egg Roll(s), 2 Jelly Roll(s), 6 Pastry Roll(s), 4 Sausage Roll(s),  Receipt:
+	[Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 2 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce], [Pastry Roll, 3 Chocolate Sauce], 
+	[Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling], [Jelly Roll, 1 Jelly Filling], [Jelly Roll, 1 Berry Sauce, 1 Crumb Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling], 
+	[Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], [Egg Roll, 1 Soy Sauce, 2 Lemon Zest Topping], [Sausage Roll, 1 Sausage Filling], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], 
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Pastry Roll], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], 
+
+Casual Customer order cost $1.60 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce], 
+
+Casual Customer order cost $1.80 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $9.50 with  1 Egg Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $2.30 with  1 Egg Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Lemon Zest Topping], 
+
+Casual Customer order cost $6.00 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 3 Worcestershire Sauce, 2 Cheese Topping], 
+
+1 Catering Customer(s), 1 Business Customer(s), 3 Casual Customer(s) did not fill their original orders on day 27 due to roll outages.
+On day 27 the store made $163.00. Breakdown: $112.00 Catering Customer(s), $0.00 Business Customer(s), $51.00 Casual Customer(s).
+On day 27 the store sold 44 rolls. Breakdown: 4 Jelly Roll(s), 6 Spring Roll(s), 13 Egg Roll(s), 15 Pastry Roll(s), 6 Sausage Roll(s).
+The inventory has:  0 Jelly Roll(s), 0 Spring Roll(s), 17 Egg Roll(s), 0 Pastry Roll(s), 13 Sausage Roll(s).
+The inventory was restocked with 45 Jelly Roll(s), 45 Spring Roll(s), 45 Pastry Roll(s).
+-----------------------------------------------------------
+It is day 28.
+The inventory has:  45 Jelly Roll(s), 45 Spring Roll(s), 17 Egg Roll(s), 45 Pastry Roll(s), 13 Sausage Roll(s).
+Casual Customer order cost $13.30 with  2 Egg Roll(s), 1 Spring Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling], [Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], 
+
+Business Customer order cost $37.10 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce], [Egg Roll, 1 Soy Sauce, 2 Lemon Zest Topping], [Jelly Roll], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], 
+	[Pastry Roll, 1 Chocolate Sauce, 1 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce], [Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], 
+	[Spring Roll, 2 Sweet & Spicy Sauce], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling], 
+
+Catering Customer order cost $66.90 with  5 Jelly Roll(s), 5 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce], [Spring Roll, 1 Vegetable Filling], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll, 1 Vegetable Filling, 2 Nut Topping], 
+	[Spring Roll, 2 Nut Topping], [Sausage Roll, 1 Sausage Filling], [Sausage Roll, 1 Sausage Filling], [Sausage Roll, 2 Cheese Topping], 
+	[Sausage Roll, 3 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 2 Cheese Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], 
+	[Jelly Roll, 3 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 1 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling], 
+
+Business Customer order cost $46.30 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 2 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce, 2 Lemon Zest Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], 
+	[Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 2 Whipped Cream Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], 
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], 
+
+Business Customer order cost $40.90 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Soy Sauce, 1 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], 
+	[Pastry Roll, 3 Chocolate Sauce, 2 Whipped Cream Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Whipped Cream Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], 
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Nut Topping], [Spring Roll], 
+
+Catering Customer order cost $71.00 with  5 Jelly Roll(s), 5 Pastry Roll(s), 5 Spring Roll(s),  Receipt:
+	[Jelly Roll, 1 Berry Sauce], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], [Jelly Roll, 2 Crumb Topping], 
+	[Jelly Roll, 3 Berry Sauce, 1 Jelly Filling], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 2 Nut Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 2 Nut Topping], 
+	[Spring Roll, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 1 Vegetable Filling], [Pastry Roll, 3 Chocolate Sauce], [Pastry Roll, 3 Chocolate Sauce], 
+	[Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 2 Whipped Cream Topping], 
+
+Casual Customer order cost $15.40 with  1 Pastry Roll(s), 1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], [Pastry Roll, 1 Chocolate Sauce], 
+
+Casual Customer order cost $11.00 with  1 Egg Roll(s), 1 Jelly Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Egg Roll], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], 
+
+Casual Customer order cost $6.20 with  1 Jelly Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Vegetable Filling], [Jelly Roll, 1 Crumb Topping], 
+
+Casual Customer order cost $15.60 with  1 Pastry Roll(s), 1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], 
+
+Casual Customer order cost $4.00 with  1 Jelly Roll(s),  Receipt:
+	[Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], 
+
+Casual Customer order cost $5.20 with  2 Egg Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $11.30 with  2 Jelly Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Jelly Roll, 3 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 1 Berry Sauce, 1 Jelly Filling], [Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling], 
+
+1 Casual Customer(s) did not fill their original orders on day 28 due to roll outages.
+On day 28 the store made $344.20. Breakdown: $137.90 Catering Customer(s), $124.30 Business Customer(s), $82.00 Casual Customer(s).
+On day 28 the store sold 80 rolls. Breakdown: 21 Jelly Roll(s), 21 Spring Roll(s), 11 Egg Roll(s), 14 Pastry Roll(s), 13 Sausage Roll(s).
+The inventory has:  24 Jelly Roll(s), 24 Spring Roll(s), 6 Egg Roll(s), 31 Pastry Roll(s), 0 Sausage Roll(s).
+The inventory was restocked with 45 Sausage Roll(s).
+-----------------------------------------------------------
+It is day 29.
+The inventory has:  24 Jelly Roll(s), 24 Spring Roll(s), 6 Egg Roll(s), 31 Pastry Roll(s), 45 Sausage Roll(s).
+Casual Customer order cost $4.00 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Sweet & Spicy Sauce], 
+
+Catering Customer order cost $56.60 with  5 Egg Roll(s), 5 Pastry Roll(s), 5 Sausage Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 1 Pork Filling, 1 Lemon Zest Topping], 
+	[Egg Roll, 1 Lemon Zest Topping], [Sausage Roll, 1 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 2 Cheese Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling], 
+	[Sausage Roll, 1 Worcestershire Sauce], [Sausage Roll, 1 Sausage Filling], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+	[Pastry Roll, 1 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce], [Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+
+Casual Customer order cost $7.50 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling], 
+
+Casual Customer order cost $8.80 with  2 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 1 Chocolate Sauce], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+
+Casual Customer order cost $9.10 with  1 Egg Roll(s), 1 Sausage Roll(s), 1 Spring Roll(s),  Receipt:
+	[Spring Roll, 2 Nut Topping], [Sausage Roll, 1 Sausage Filling], [Egg Roll, 2 Lemon Zest Topping], 
+
+Casual Customer order cost $10.80 with  2 Jelly Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Jelly Roll, 3 Berry Sauce], [Pastry Roll, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Jelly Roll, 3 Berry Sauce], 
+
+Catering Customer order cost $58.00 with  5 Jelly Roll(s), 5 Pastry Roll(s), 5 Spring Roll(s),  Receipt:
+	[Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], [Jelly Roll, 2 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling], [Jelly Roll, 2 Berry Sauce], 
+	[Jelly Roll, 1 Berry Sauce, 1 Jelly Filling, 1 Crumb Topping], [Spring Roll, 2 Sweet & Spicy Sauce], [Spring Roll, 2 Sweet & Spicy Sauce, 2 Nut Topping], [Spring Roll, 1 Vegetable Filling], 
+	[Spring Roll, 2 Sweet & Spicy Sauce], [Spring Roll, 1 Vegetable Filling, 1 Nut Topping], [Pastry Roll, 1 Cinnamon Filling], [Pastry Roll, 2 Whipped Cream Topping], 
+	[Pastry Roll], [Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], [Pastry Roll], 
+
+Casual Customer order cost $3.60 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 2 Chocolate Sauce], 
+
+Casual Customer order cost $10.40 with  2 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 1 Sausage Filling], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+
+Casual Customer order cost $10.70 with  2 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 3 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], 
+
+Casual Customer order cost $6.60 with  1 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling], 
+
+Casual Customer order cost $5.50 with  1 Spring Roll(s),  Receipt:
+	[Spring Roll, 1 Vegetable Filling, 2 Nut Topping], 
+
+Casual Customer order cost $6.30 with  1 Pastry Roll(s), 1 Spring Roll(s),  Receipt:
+	[Pastry Roll, 1 Whipped Cream Topping], [Spring Roll, 1 Sweet & Spicy Sauce], 
+
+Casual Customer order cost $5.50 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 2 Whipped Cream Topping], 
+
+1 Business Customer(s), 4 Casual Customer(s) did not fill their original orders on day 29 due to roll outages.
+On day 29 the store made $203.40. Breakdown: $114.60 Catering Customer(s), $0.00 Business Customer(s), $88.80 Casual Customer(s).
+On day 29 the store sold 50 rolls. Breakdown: 7 Jelly Roll(s), 10 Spring Roll(s), 6 Egg Roll(s), 16 Pastry Roll(s), 11 Sausage Roll(s).
+The inventory has:  17 Jelly Roll(s), 14 Spring Roll(s), 0 Egg Roll(s), 15 Pastry Roll(s), 34 Sausage Roll(s).
+The inventory was restocked with 45 Egg Roll(s).
+-----------------------------------------------------------
+It is day 30.
+The inventory has:  17 Jelly Roll(s), 14 Spring Roll(s), 45 Egg Roll(s), 15 Pastry Roll(s), 34 Sausage Roll(s).
+Catering Customer order cost $75.80 with  5 Pastry Roll(s), 5 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Pastry Roll], [Pastry Roll, 1 Cinnamon Filling, 2 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], [Pastry Roll, 3 Chocolate Sauce, 1 Whipped Cream Topping], 
+	[Pastry Roll, 2 Chocolate Sauce], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 1 Vegetable Filling, 2 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], 
+	[Spring Roll, 1 Nut Topping], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Nut Topping], [Sausage Roll, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 2 Cheese Topping], 
+	[Sausage Roll, 3 Worcestershire Sauce], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Cheese Topping], 
+
+Business Customer order cost $44.70 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Pork Filling, 1 Lemon Zest Topping], [Egg Roll, 3 Soy Sauce, 1 Lemon Zest Topping], [Jelly Roll, 2 Berry Sauce, 1 Crumb Topping], [Jelly Roll, 3 Berry Sauce, 1 Jelly Filling, 2 Crumb Topping], 
+	[Pastry Roll, 2 Chocolate Sauce, 2 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling], [Sausage Roll, 1 Worcestershire Sauce, 1 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling], 
+	[Spring Roll, 2 Sweet & Spicy Sauce], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], 
+
+Casual Customer order cost $11.20 with  1 Egg Roll(s), 1 Jelly Roll(s), 1 Sausage Roll(s),  Receipt:
+	[Jelly Roll, 1 Jelly Filling, 1 Crumb Topping], [Sausage Roll, 3 Worcestershire Sauce, 1 Cheese Topping], [Egg Roll, 1 Soy Sauce, 1 Pork Filling], 
+
+Catering Customer order cost $71.60 with  5 Egg Roll(s), 5 Sausage Roll(s), 5 Spring Roll(s),  Receipt:
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling], [Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Egg Roll, 2 Soy Sauce], [Egg Roll], 
+	[Egg Roll, 3 Soy Sauce, 1 Pork Filling], [Sausage Roll, 3 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce], 
+	[Sausage Roll, 3 Worcestershire Sauce], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 2 Nut Topping], [Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling], 
+	[Spring Roll, 1 Sweet & Spicy Sauce], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling], [Spring Roll, 3 Sweet & Spicy Sauce, 1 Vegetable Filling, 2 Nut Topping], 
+
+Casual Customer order cost $13.90 with  1 Jelly Roll(s), 2 Sausage Roll(s),  Receipt:
+	[Jelly Roll, 1 Berry Sauce, 2 Crumb Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], [Sausage Roll, 1 Worcestershire Sauce, 1 Sausage Filling], 
+
+Business Customer order cost $40.60 with  2 Egg Roll(s), 2 Jelly Roll(s), 2 Pastry Roll(s), 2 Sausage Roll(s), 2 Spring Roll(s),  Receipt:
+	[Egg Roll, 1 Pork Filling], [Egg Roll, 1 Soy Sauce, 1 Pork Filling, 2 Lemon Zest Topping], [Jelly Roll, 3 Berry Sauce], [Jelly Roll, 3 Berry Sauce, 2 Crumb Topping], 
+	[Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], [Pastry Roll, 2 Chocolate Sauce, 1 Whipped Cream Topping], [Sausage Roll, 1 Sausage Filling], [Sausage Roll, 1 Sausage Filling, 1 Cheese Topping], 
+	[Spring Roll, 1 Sweet & Spicy Sauce, 1 Vegetable Filling, 1 Nut Topping], [Spring Roll, 2 Sweet & Spicy Sauce, 1 Vegetable Filling], 
+
+Casual Customer order cost $9.80 with  2 Sausage Roll(s),  Receipt:
+	[Sausage Roll, 2 Cheese Topping], [Sausage Roll, 2 Worcestershire Sauce, 1 Sausage Filling, 2 Cheese Topping], 
+
+Casual Customer order cost $5.20 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll, 2 Chocolate Sauce, 1 Cinnamon Filling, 1 Whipped Cream Topping], 
+
+Casual Customer order cost $6.50 with  1 Jelly Roll(s), 1 Pastry Roll(s),  Receipt:
+	[Jelly Roll, 1 Jelly Filling, 2 Crumb Topping], [Pastry Roll, 1 Chocolate Sauce, 2 Whipped Cream Topping], 
+
+Casual Customer order cost $2.00 with  1 Pastry Roll(s),  Receipt:
+	[Pastry Roll], 
+
+Casual Customer order cost $8.80 with  1 Egg Roll(s), 2 Jelly Roll(s),  Receipt:
+	[Egg Roll, 2 Soy Sauce, 1 Lemon Zest Topping], [Jelly Roll, 1 Jelly Filling, 1 Crumb Topping], [Jelly Roll, 3 Berry Sauce], 
+
+2 Casual Customer(s) did not fill their original orders on day 30 due to roll outages.
+On day 30 the store made $290.10. Breakdown: $147.40 Catering Customer(s), $85.30 Business Customer(s), $57.40 Casual Customer(s).
+On day 30 the store sold 65 rolls. Breakdown: 9 Jelly Roll(s), 14 Spring Roll(s), 11 Egg Roll(s), 12 Pastry Roll(s), 19 Sausage Roll(s).
+The inventory has:  8 Jelly Roll(s), 0 Spring Roll(s), 34 Egg Roll(s), 3 Pastry Roll(s), 15 Sausage Roll(s).
+The inventory was restocked with 45 Spring Roll(s).
+-----------------------------------------------------------
+Total Rolls Sold: 1650
+Total Rolls Sold by Type: 307 Jelly Roll(s), 315 Spring Roll(s), 326 Egg Roll(s), 357 Pastry Roll(s), 345 Sausage Roll(s)
+Total Profit from Sales: $6904.20
+Total Customer Orders Impacted by Roll Outages: 96

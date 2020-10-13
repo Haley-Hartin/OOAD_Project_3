@@ -1,15 +1,19 @@
 import java.util.*;
 import java.beans.*;
 
-public abstract class Customer implements PropertyChangeListener{ //https://www.baeldung.com/java-observer-pattern
+public abstract class Customer { //https://www.baeldung.com/java-observer-pattern
 	
 	private List<String> order;
 	private String customerType;
 	private List<String> menu;
 	private String storeStatus;
+	private boolean changedOrder;
 
-	public Customer(String customerType) {
+	public Customer(String customerType, List<String> menu) {
 		this.customerType = customerType;
+		this.menu = menu;
+		this.changedOrder = false;
+		decideOrder();
 	}
 	
 	public List<String> getOrder(){
@@ -28,33 +32,36 @@ public abstract class Customer implements PropertyChangeListener{ //https://www.
 		return this.menu;
 	}
 	
-	public void observeMenu(List<String> menu) {
+	public void setMenu(List<String> menu) {
 		this.menu = menu;
 	}
 	
-	public void observeStoreStatus() {
-		if(this.storeStatus == "Open") {
-			this.decideOrder();
+	public HashMap<String, Integer> getHashMapOrder() {
+		HashMap<String, Integer> numOrder = new HashMap<String, Integer>();
+		if(getOrder() == null) {
+			return null;
 		}
-		else if(this.storeStatus == "Closed") {
-			this.order = null;
+		for(int i = 0; i < getOrder().size(); i++) {
+			String key = getOrder().get(i);
+			if(numOrder.get(key) == null) {
+				numOrder.put(key, 0);
+			}
+			numOrder.put(key, numOrder.get(key) + 1);
 		}
 		
+		return numOrder;
+	}
+	
+	public boolean didCustomerChangeOrder() {
+		return this.changedOrder;
+	}
+	
+	public void orderHasChanged() {
+		this.changedOrder = true;
 	}
 	
 	public abstract void decideOrder();
-	
-	public void propertyChange(PropertyChangeEvent evt) { //observer pattern
-		if(evt.getPropertyName().equals("Store Menu")) {
-			this.observeMenu((List<String>) evt.getNewValue());
-		}
-		else if(evt.getPropertyName().equals("Store Status")) {
-			this.storeStatus = (String) evt.getNewValue();
-			this.observeStoreStatus();
-		}
-		
-        
-    }
+	public abstract void changeOrder(int unfilledOrderIndex);
 
 }
 

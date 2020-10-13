@@ -3,8 +3,8 @@ import java.util.List;
 
 public class BusinessCustomer extends Customer{
 
-	public BusinessCustomer() {
-		super("Business Customer");
+	public BusinessCustomer(List<String> menu) {
+		super("Business Customer", menu);
 	}
 	
 	public void decideOrder() {
@@ -27,5 +27,10 @@ public class BusinessCustomer extends Customer{
 		
 		setOrder(order);
  	}
+	
+	public void changeOrder(int unfilledOrderIndex) {
+		orderHasChanged();
+		setOrder(null);
+	}
 
 }

@@ -3,8 +3,8 @@ import java.util.*;
 
 public class CateringCustomer extends Customer{
 
-	public CateringCustomer() {
-		super("Catering Customer");
+	public CateringCustomer(List<String> menu) {
+		super("Catering Customer", menu);
 	}
 	
 	public void decideOrder() {
@@ -27,5 +27,32 @@ public class CateringCustomer extends Customer{
 		
 		setOrder(order);
  	}
+	
+	public void changeOrder(int unfilledOrderIndex) {
+		orderHasChanged();
+		List<String> prevOrder = getOrder();
+		List<String> newOrder = new ArrayList<String>();
+		Random rand = new Random();
+		
+		for(int i = 0; i < prevOrder.size(); i++) {
+			if(i == unfilledOrderIndex) {
+				List<String> altMenu = new ArrayList<String>(getMenu());
+				boolean wasRemoved = altMenu.remove(prevOrder.get(unfilledOrderIndex));
+				if(wasRemoved) {
+					setMenu(altMenu);
+				}
+				if(altMenu.size() == 0) {
+					continue;
+				}
+				String newRoll = altMenu.get(rand.nextInt(altMenu.size()));
+				newOrder.add(newRoll);
+			}
+			else {
+				newOrder.add(prevOrder.get(i)); 
+			}
+		}
+		
+		setOrder(newOrder);
+	}
 
 }

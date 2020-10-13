@@ -3,49 +3,25 @@ import java.beans.*;
 
 public abstract class Store {
 	
-	private int inventorySize;
-	private HashMap<String, Integer> inventory;
+	
+	private Inventory inventory;
 	private List<String> menu;
 	private PropertyChangeSupport support; //observer pattern //https://www.baeldung.com/java-observer-pattern
 	private String status;
+	private CashRegister cashRegister;
 	
 	public Store(int inventorySize, List<String> menu) {
-		this.inventorySize = inventorySize;
 		this.menu = menu;
-		this.inventory = new HashMap<String, Integer>(); //https://www.geeksforgeeks.org/list-interface-java-examples/
-		//https://stackoverflow.com/questions/6589744/how-to-return-a-list-of-keys-from-a-hash-map
-		
-		for(int i = 0; i < menu.size(); i++) {
-			this.inventory.put(menu.get(i), inventorySize);
-		}
+		this.inventory = new Inventory(inventorySize, menu);
 		
 		support = new PropertyChangeSupport(this);
 		this.status = "<unk>";
+		this.cashRegister = new CashRegister(Arrays.asList("Catering Customer", "Business Customer", "Casual Customer"), this.menu);
 	}
 	
-	public void restockInventory() { //https://beginnersbook.com/2013/12/hashmap-in-java-with-example/
-		Set<Map.Entry<String, Integer>> set = this.inventory.entrySet();
-		Iterator<Map.Entry<String, Integer>> iterator = set.iterator();
-	    while(iterator.hasNext()) {
-	       Map.Entry<String, Integer> mentry = iterator.next(); 
-	       if(mentry.getValue() == 0) {
-	    	   this.inventory.put(mentry.getKey(), this.inventorySize);
-	       }
-	    }
-	}
 	
-	public void checkInventory() { //https://beginnersbook.com/2013/12/hashmap-in-java-with-example/
-		int zeroedInventory =0;
-		Set<Map.Entry<String, Integer>> set = this.inventory.entrySet();
-		Iterator<Map.Entry<String, Integer>> iterator = set.iterator();
-	    while(iterator.hasNext()) {
-	       Map.Entry<String, Integer> mentry = iterator.next(); 
-	       if(mentry.getValue() == 0) {
-	    	   zeroedInventory += 1;
-	       }
-	    }
-	    
-	    if(zeroedInventory == this.menu.size()) {
+	public void updateStoreStatus() {
+		if(this.inventory.checkInventoryForEmptiedStock() == this.inventory.getNumItemsInInvetory()) {
 	    	System.out.println("The Store has closed for the day due to sold out inventory.");
 	    	this.setStatus("Closed");
 	    }
@@ -53,8 +29,12 @@ public abstract class Store {
 	    	this.setStatus("Open");
 	    }
 	}
+	
 
 	public Roll createRoll(String order) {
+		if(!this.inventory.stockAvailable(order)) {
+			return null;
+		}
 		Roll roll = orderFromMenu(order);
 		Random rand = new Random(); //https://www.geeksforgeeks.org/java-util-random-nextint-java/)
 		int extraSauces = rand.nextInt(4); //0-3  extra sauces
@@ -71,12 +51,14 @@ public abstract class Store {
 			roll = new ExtraToppings(roll, extraToppings);
 		}
 		
+		this.inventory.reduceStock(order);
+		
 		return roll;
 	}
 	
+	
 	public abstract Roll orderFromMenu(String order);
-	public abstract List<Customer> newCustomerLine();
-	//public abstract void defaultStoreSettings();
+	public abstract CustomerLine newCustomerLine();
 	
 	public void addPropertyChangeListener(PropertyChangeListener pcl) {//observer pattern //https://www.baeldung.com/java-observer-pattern
         support.addPropertyChangeListener(pcl);
@@ -87,46 +69,88 @@ public abstract class Store {
     }
  
     public void setStatus(String status) { //https://www.baeldung.com/java-observer-pattern
-        support.firePropertyChange("Store Status", "<unk>", status); //observer pattern
+        support.firePropertyChange("Store Status", this.status, status); //observer pattern
         this.status = status;
     }
     
-    public void giveMenu() { //https://www.baeldung.com/java-observer-pattern
-        support.firePropertyChange("Store Menu",  Arrays.asList("Nothing"), this.menu); //observer pattern
+    public List<String> getMenu() { 
+    	return this.menu;
+    } 
+    
+    
+    
+    public List<Roll> serveCustomer(Customer customer){
+    	List<String> customerOrder = customer.getOrder();
+		List<Roll> customerRolls = new ArrayList<Roll>();
+		
+		while(true) {
+			for(int k = customerRolls.size(); k < customerOrder.size(); k++) {
+				String rollType = customerOrder.get(k);
+				Roll roll = createRoll(rollType);
+				if(roll == null) {
+					customer.changeOrder(k);
+					customerOrder = customer.getOrder();
+					break;
+				}
+				else 	{
+					customerRolls.add(roll);
+				}
+			}
+			
+			if(customerOrder == null) {
+				for(int r = 0; r < customerRolls.size(); r++) {
+					String unpurchasedRoll = customerRolls.get(r).getRollType();
+					this.inventory.increaseStock(unpurchasedRoll);
+				}
+				customerRolls = null;
+				break;
+			}
+			else if(customerRolls.size() == customerOrder.size()) {
+				break;
+			}
+		}
+		return customerRolls;
     }
     
-    public void announceInventory() {
-    	String inventoryReport = "The inventory has ";
-    	for(int j = 0; j < this.menu.size(); j++) {
-			String key = this.menu.get(j);
-			inventoryReport = inventoryReport + this.inventory.get(key) + " "+ key + ", " ;
-		}
-    	System.out.println(inventoryReport + ".");
-    }
-	
-	public void runStore(int days) {		
+    
+	public void runStore(int days) {	
 		for(int i = 1; i <= days; i++) {
-			List<Customer> customerLine = newCustomerLine();
+			CustomerLine customerLine = newCustomerLine();
 			System.out.println("It is day " + i + ".");
-			this.announceInventory();
-			for(int j = 0; j < customerLine.size(); j++) {
-				this.addPropertyChangeListener(customerLine.get(j)); //observer pattern
+			this.inventory.announceInventory();
+			this.addPropertyChangeListener(customerLine); //observer pattern
+			setStatus("Open");
+			
+			while(customerLine.serveNextCustomer()) {
+				this.updateStoreStatus();
+				Customer currentCustomer = customerLine.getCurrentCustomer();
+								
+				List<Roll> customerRolls = serveCustomer(currentCustomer);
+				this.cashRegister.ringUpCustomer(currentCustomer, customerRolls);
+				
+				
+				this.updateStoreStatus();
+				
 			}
-			this.checkInventory();
-			this.giveMenu();
-			
-			
-			
-			
-			for(int j = 0; j < customerLine.size(); j++) {
-				this.removePropertyChangeListener(customerLine.get(j)); //observer pattern
-			}
+				
+			this.removePropertyChangeListener(customerLine); //observer pattern
 			
 			//End of the day
-			this.announceInventory();
-			this.restockInventory();
+			this.cashRegister.reportDailyStats(i);
+			this.inventory.announceInventory(); 
+			this.inventory.restockInventory();
+			this.setStatus("Closed");
 			System.out.println("-----------------------------------------------------------");
 		}
 		
+		this.cashRegister.reportTotalStats();
+	}
+	
+	public CashRegister getCashReigster() {
+		return this.cashRegister;
+	}
+	
+	public int getInventorySize() {
+		return this.inventory.getInventorySize();
 	}
 }
