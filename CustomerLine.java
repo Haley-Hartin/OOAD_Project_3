@@ -24,6 +24,7 @@ public abstract class CustomerLine implements PropertyChangeListener {
     }
 	
 	public Customer getCurrentCustomer() {
+		//only return a customer from the line if the store is open
 		if(this.storeStatus == "Open") {
 			return this.line.get(this.currentCustomer);
 		}
@@ -32,7 +33,7 @@ public abstract class CustomerLine implements PropertyChangeListener {
 		}
 	}
 	
-	public boolean serveNextCustomer() {
+	public boolean serveNextCustomer() {//return true if there are still customers in the line to serve
 		if(this.storeStatus == "Open" && this.currentCustomer + 1 < this.line.size()) {
 			this.currentCustomer += 1;
 			return true;
@@ -51,7 +52,7 @@ public abstract class CustomerLine implements PropertyChangeListener {
 		System.out.println(this.line);
 	}
 	
-	public void printNumCustomerTypes() {
+	public void printNumCustomerTypes() { //track the number of each customer type in the line
 		HashMap<String, Integer> numTypes = new HashMap<String, Integer>();
 		for(int i = 0; i < this.line.size(); i++) {
 			String key = line.get(i).getCustomerType();
