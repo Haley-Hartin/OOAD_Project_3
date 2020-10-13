@@ -17,14 +17,17 @@ public class RunStore {
 
         PrintStream out = new PrintStream(new File("output_Inventory_30.txt")); // https://www.geeksforgeeks.org/redirecting-system-out-println-output-to-a-file-in-java/
         System.setOut(out);
+		//run the store for 30 days 
 		Store store1 = new GourmetStore(30);
 		store1.runStore(days);
 		
+		//run the store for 45 days 
 		out = new PrintStream(new File("output_Inventory_45.txt"));
 		System.setOut(out);
 		Store store2 = new GourmetStore(45);
 		store2.runStore(days);
 		
+		//run the store for 60 days 
 		out = new PrintStream(new File("output_Inventory_60.txt"));
 		System.setOut(out);
 		Store store3 = new GourmetStore(60);
