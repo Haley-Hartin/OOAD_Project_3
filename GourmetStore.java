@@ -11,6 +11,7 @@ public class GourmetStore extends Store{
 		//https://stackoverflow.com/questions/13395114/how-to-initialize-liststring-object-in-java
 	}
 	
+	//return the cooresponding roll object based on the order 
 	public Roll orderFromMenu(String order) {
 		if(order == "Egg Roll") {
 			return new EggRoll(1.00);
@@ -32,7 +33,7 @@ public class GourmetStore extends Store{
 	}
 	
 	public CustomerLine newCustomerLine() {
-		return new GourmetCustomerLine(getMenu());
+		return new GourmetCustomerLine(getMenu()); //create a customer line
 	}
 	
 }
