@@ -10,7 +10,7 @@ public abstract class Roll {
 		
 	}
 
-	public Roll(double price, String type) {
+	public Roll(double price, String type) { //set roll info
 		this.price = price;
 		this.order = type;
 		this.rollType = type;
@@ -24,7 +24,7 @@ public abstract class Roll {
 		this.price = price;
 	}
 	
-	public String getOrderDescription() {
+	public String getOrderDescription() { //return the name of the roll 
 		return this.order;
 	}
 	
