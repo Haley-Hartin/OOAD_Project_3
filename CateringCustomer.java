@@ -5,8 +5,6 @@ public class CateringCustomer extends Customer{
 
 	public CateringCustomer() {
 		super("Catering Customer");
-//         this.menu = Arrays.asList("Egg Roll", "Jelly Roll", "Spring Roll", "Pastry Roll", "Sausage Roll");
-//         System.out.println("This Menu " + this.menu);
         
 	}
 	
@@ -18,16 +16,16 @@ public class CateringCustomer extends Customer{
 		int numberOfTypes = 3; //https://www.baeldung.com/java-random-list-element
 		int numOfEachType = 5;
 		List<String> tempMenu = new ArrayList<String>(getMenu()); //https://stackoverflow.com/questions/7399482/java-lang-unsupportedoperationexception-at-java-util-abstractlist-removeunknown
-	    for (int i = 0; i < numberOfTypes; i++) {
-	        int randomIndex = rand.nextInt(tempMenu.size());
-	        String rollType = tempMenu.get(randomIndex);
-	        tempMenu.remove(randomIndex);
-	        for(int j = 0; j < numOfEachType; j++) {
-	        	order.add(rollType);
+	        for (int i = 0; i < numberOfTypes; i++) {
+			int randomIndex = rand.nextInt(tempMenu.size());
+			String rollType = tempMenu.get(randomIndex);  //choose a random roll 
+			tempMenu.remove(randomIndex);
+			for(int j = 0; j < numOfEachType; j++) { //add 5 of the roll to the order
+				order.add(rollType);
 	        }
 	        
 	    }
-		setOrder(order);
+		setOrder(order); 
  	}
 
 }
