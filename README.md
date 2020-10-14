@@ -5,8 +5,12 @@
 1. Language and Environment
 
    * Java 8 in Eclipse IDE
+ 
+2. Text description of program design
 
-2. Notes
+   * This is a program that simulates a Gourmet Store with 5 different rolls (Egg Roll, Spring Roll, Sausage Roll, Pastry Roll, Jelly Roll) to sell to 3 different customer types (Casual Customer, Business Customer, Catering Customer). The Store has a given inventory level that each roll will be at (this simulation includes 30, 45, annd 60 levels). Each of the 3 customers have different ways of ordering the food, and different ways of responding to a certain roll outage. The simulation will run for a given amount of days (30 in this case) and will print out daily interactions with customers, daily statistics and reports (how many roles are in the inventory, how many rolls sold etc.). The store will close and not serve any more customers for the day if they run out of inventory for all of the rolls (the next day they are restocked if they are that roll type is out to the inventory level given). At the end, the total profits, total rolls sold, total rolls sold by type, and total roll outage impacts. Test cases are also included in the output files.
+
+3. Notes
 
    * There are 3 output files for this assignment. Each for the 30, 45, 60 inventory level. They will be titled output_Inventory_##.txt
    * Results for the JUnit Tests can be found at the bottom of each of the 3 output files
@@ -15,7 +19,7 @@
    * The Decorator Pattern can be found in ExtraDecorator.java, ExtraSauces.java, ExtraFillings.java, ExtraToppings.java
    * Bonus: Iterator Pattern can be found in CashRegister.java
 
-3. Assumptions Made
+4. Assumptions Made
 
    * The randomness probability of something being chosen (i.e. how many customers per customer type, number of extras etc.) is assumed to be equally probable across the entire required domain.
    * As per the reading in the document "Casual customers will buy 1 to 3 rolls (type determined randomly)." This has been determined to mean that each of the 1-3 rolls will have a randomly determined type (i.e. a Casual customer will order a 2 rolls and the roll types are an Egg Roll and Spring Roll). This is assumed that this reading will also allow for the Casual customer to order 2+ of the same roll type (i.e. a casual customer orders 3 rolls and the types are 2 Pastry Rolls and 1 Sausage roll).
@@ -25,11 +29,11 @@
    * Also assumed that "Total payment for orders for the day by customer type, and overall" meant the total profits for the day, and total for all of the customer orders for the day.
    
    
-4. Issues Encountered During Development
+5. Issues Encountered During Development
 
    * Tried to think of where the Observer pattern may be useful, but determined that it is really only useful for the whether the store is opened or closed.
    
-5. Instructions To Run Application
+6. Instructions To Run Application
 
    * To run the program normally, just run the RunStore.java
    * Make sure you have JUnit 4 library installed for the JUnit tests. Make sure to (in Eclipse) go to properties of the project->Java Build Path -> Libaries -> Add Library -> JUnit -> JUnit 4 -> Finish ->Apply & Close
