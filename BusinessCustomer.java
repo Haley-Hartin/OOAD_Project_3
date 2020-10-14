@@ -12,6 +12,7 @@ public class BusinessCustomer extends Customer{
 		List<String> order = new ArrayList<String>(); 
 		int currentType = 0;
 		int numCurrentType = 0;
+		//the Business Customer will take 2 of each type of roll on the menu, for a total of 10 rolls
 		while(numRolls != 0) {
 			if(numCurrentType < 2) {
 				order.add(getMenu().get(currentType));
@@ -29,8 +30,8 @@ public class BusinessCustomer extends Customer{
  	}
 	
 	public void changeOrder(int unfilledOrderIndex) {
-		orderHasChanged();
-		setOrder(null);
+		orderHasChanged(); //raise flag that customer has changed thier order
+		setOrder(null); //any roll outage that the business customer is informed of will cause them to drop their order and not make any purchase
 	}
 
 }

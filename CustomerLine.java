@@ -4,7 +4,7 @@ import java.util.*;
 
 public abstract class CustomerLine implements PropertyChangeListener {
 	
-	private String storeStatus;
+	private String storeStatus; 
 	private List<Customer> line;
 	private int currentCustomer;
 	private List<String> storeMenu;
@@ -12,7 +12,7 @@ public abstract class CustomerLine implements PropertyChangeListener {
 	public CustomerLine(List<String> menu) {
 		this.storeMenu = menu;
 		this.currentCustomer = -1;
-		this.line = getCustomerLine();
+		this.line = getCustomerLine(); //create the random line of customers
 	}
 	
 	public abstract List<Customer> getCustomerLine();
@@ -24,7 +24,7 @@ public abstract class CustomerLine implements PropertyChangeListener {
     }
 	
 	public Customer getCurrentCustomer() {
-		//only return a customer from the line if the store is open
+		//only get the next customer from the line if the store is open
 		if(this.storeStatus == "Open") {
 			return this.line.get(this.currentCustomer);
 		}
@@ -33,12 +33,12 @@ public abstract class CustomerLine implements PropertyChangeListener {
 		}
 	}
 	
-	public boolean serveNextCustomer() {//return true if there are still customers in the line to serve
-		if(this.storeStatus == "Open" && this.currentCustomer + 1 < this.line.size()) {
-			this.currentCustomer += 1;
+	public boolean serveNextCustomer() {
+		if(this.storeStatus == "Open" && this.currentCustomer + 1 < this.line.size()) { //if there are still costomers to serve and store is still open
+			this.currentCustomer += 1; //move on to the next customer
 			return true;
 		}
-		else {
+		else { //if the store closes early or there are no more customers to serve, then end line
 			this.line = null;
 			return false;
 		}
@@ -48,11 +48,12 @@ public abstract class CustomerLine implements PropertyChangeListener {
 		return this.storeMenu;
 	}
 	
-	public void printLine() {
+	public void printLine() { //for debugging
 		System.out.println(this.line);
 	}
 	
 	public void printNumCustomerTypes() { //track the number of each customer type in the line
+		//mainly used for debugging
 		HashMap<String, Integer> numTypes = new HashMap<String, Integer>();
 		for(int i = 0; i < this.line.size(); i++) {
 			String key = line.get(i).getCustomerType();

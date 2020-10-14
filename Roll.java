@@ -24,7 +24,7 @@ public abstract class Roll {
 		this.price = price;
 	}
 	
-	public String getOrderDescription() { //return the name of the roll 
+	public String getOrderDescription() { //return the name of the roll, extras will be added to the description (if there are any)
 		return this.order;
 	}
 	

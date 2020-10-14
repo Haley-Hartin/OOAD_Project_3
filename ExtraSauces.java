@@ -2,7 +2,7 @@
 public class ExtraSauces extends ExtraDecorator{ //https://www.baeldung.com/java-decorator-pattern and Lecture 13
 
 	
-	public ExtraSauces(Roll roll, int numExtra) {
+	public ExtraSauces(Roll roll, int numExtra) { //decorator pattern
 		super(roll, numExtra);
 	}
 
@@ -29,7 +29,7 @@ public class ExtraSauces extends ExtraDecorator{ //https://www.baeldung.com/java
 		}
 	}
 	
-	public String getOrderDescription() {
+	public String getOrderDescription() { //decorator pattern //add the sauces to the rolls description
 		return getRoll().getOrderDescription() + ", " + getNumExtra() + " " + getExtraName() + " Sauce"; 
 	}
 }

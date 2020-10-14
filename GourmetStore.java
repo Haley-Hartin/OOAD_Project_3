@@ -6,13 +6,14 @@ import java.util.Random;
 
 public class GourmetStore extends Store{
 
-	public GourmetStore(int inventorySize) {
+	public GourmetStore(int inventorySize) { //concrete factory for Store
 		super(inventorySize, new ArrayList<String>(Arrays.asList("Egg Roll", "Jelly Roll", "Pastry Roll", "Sausage Roll", "Spring Roll")));
 		//https://stackoverflow.com/questions/13395114/how-to-initialize-liststring-object-in-java
 	}
 	
-	//return the cooresponding roll object based on the order 
-	public Roll orderFromMenu(String order) {
+	//return the corresponding roll object based on the order 
+	//prices are all preset to different prices
+	public Roll orderFromMenu(String order) { //factory pattern
 		if(order == "Egg Roll") {
 			return new EggRoll(1.00);
 		}
@@ -33,7 +34,7 @@ public class GourmetStore extends Store{
 	}
 	
 	public CustomerLine newCustomerLine() {
-		return new GourmetCustomerLine(getMenu()); //create a customer line
+		return new GourmetCustomerLine(getMenu()); //create a new line of customers
 	}
 	
 }

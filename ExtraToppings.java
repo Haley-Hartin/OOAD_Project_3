@@ -1,15 +1,15 @@
 
 public class ExtraToppings extends ExtraDecorator{ //https://www.baeldung.com/java-decorator-pattern and Lecture 13
 	
-	public ExtraToppings(Roll roll, int numExtra) {
+	public ExtraToppings(Roll roll, int numExtra) { //decorator pattern
 		super(roll, numExtra);
 	}
 	
 	@Override
 	public double choosePrice(String rollType) { //https://www.tutorialspoint.com/java/switch_statement_in_java.htm
-		switch(rollType) {
+		switch(rollType) { 
 			case "Egg Roll":
-				setExtraName("Lemon Zest");
+				setExtraName("Lemon Zest"); 
 				return 0.10;
 			case "Jelly Roll":
 				setExtraName("Crumb");
@@ -28,7 +28,7 @@ public class ExtraToppings extends ExtraDecorator{ //https://www.baeldung.com/ja
 		}
 	}
 	
-	public String getOrderDescription() {
+	public String getOrderDescription() { //decorator pattern //add the topping to the rolls description
 		return getRoll().getOrderDescription() + ", " + getNumExtra() + " " + getExtraName() + " Topping"; 
 	}
 }
