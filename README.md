@@ -4,7 +4,7 @@
 
 1. Language and Environment
 
-   * 
+   * Java 8 in Eclipse IDE
 
 2. Notes
 
