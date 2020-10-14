@@ -2,6 +2,12 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.util.*;
+import org.junit.Test;
+import org.junit.internal.TextListener;
+import org.junit.runner.JUnitCore;
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
 
 //import org.knowm.xchart.*;
 
@@ -14,6 +20,9 @@ public class RunStore {
 //        int days = scan.nextInt();
 //        scan.close(); // https://www.tutorialspoint.com/java/util/scanner_close.htm
 		int days = 30;
+		
+		JUnitCore junit = new JUnitCore();
+        junit.addListener(new CustomExecutionListener());
 
         PrintStream out = new PrintStream(new File("output_Inventory_30.txt")); // https://www.geeksforgeeks.org/redirecting-system-out-println-output-to-a-file-in-java/
         System.setOut(out);
@@ -21,17 +30,44 @@ public class RunStore {
 		Store store1 = new GourmetStore(30);
 		store1.runStore(days);
 		
+		//https://stackoverflow.com/questions/39097716/is-it-possible-to-get-test-status-in-junit-from-runlistener-testfinished
+        //https://stackoverflow.com/questions/46536753/print-test-result-in-junit
+        System.out.println("\nRUNNING JUNIT TESTS.");
+        Result result = junit.run(MyUnitTest.class);
+		for(Failure failure : result.getFailures()) {
+			System.out.println(failure.toString());
+		}
+		System.out.println("Successful: " + result.wasSuccessful() + " ran " + result.getRunCount() + " tests");
+		
 		//run the store for 45 days 
 		out = new PrintStream(new File("output_Inventory_45.txt"));
 		System.setOut(out);
 		Store store2 = new GourmetStore(45);
 		store2.runStore(days);
 		
+		//https://stackoverflow.com/questions/39097716/is-it-possible-to-get-test-status-in-junit-from-runlistener-testfinished
+        //https://stackoverflow.com/questions/46536753/print-test-result-in-junit
+        System.out.println("\nRUNNING JUNIT TESTS.");
+        Result result2 = junit.run(MyUnitTest.class);
+		for(Failure failure : result2.getFailures()) {
+			System.out.println(failure.toString());
+		}
+		System.out.println("Successful: " + result2.wasSuccessful() + " ran " + result2.getRunCount() + " tests");
+		
 		//run the store for 60 days 
 		out = new PrintStream(new File("output_Inventory_60.txt"));
 		System.setOut(out);
 		Store store3 = new GourmetStore(60);
 		store3.runStore(days);
+		
+		//https://stackoverflow.com/questions/39097716/is-it-possible-to-get-test-status-in-junit-from-runlistener-testfinished
+        //https://stackoverflow.com/questions/46536753/print-test-result-in-junit
+        System.out.println("\nRUNNING JUNIT TESTS.");
+        Result result3 = junit.run(MyUnitTest.class);
+		for(Failure failure : result.getFailures()) {
+			System.out.println(failure.toString());
+		}
+		System.out.println("Successful: " + result3.wasSuccessful() + " ran " + result3.getRunCount() + " tests");
 		
 		
 		//EXTRA CREDIT WORK
