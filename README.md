@@ -14,6 +14,7 @@
 
    * There are 3 output files for this assignment. Each for the 30, 45, 60 inventory level. They will be titled output_Inventory_##.txt
    * Results for the JUnit Tests can be found at the bottom of each of the 3 output files
+   * The extra credit can be found in Project 3 Extra Credit.pdf and code for reference is in RunStore.java and ExtraCredit.java
    * The Observer Pattern can be found in Store.java and CustomerLine.java
    * The Factory Pattern can be found in Store.java and GourmetStore.java (which is the factory in this case)
    * The Decorator Pattern can be found in ExtraDecorator.java, ExtraSauces.java, ExtraFillings.java, ExtraToppings.java
