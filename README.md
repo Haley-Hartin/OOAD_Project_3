@@ -13,7 +13,7 @@
    * The Observer Pattern can be found in Store.java and CustomerLine.java
    * The Factory Pattern can be found in Store.java and GourmetStore.java (which is the factory in this case)
    * The Decorator Pattern can be found in ExtraDecorator.java, ExtraSauces.java, ExtraFillings.java, ExtraToppings.java
-   * Bonus: Iterator Pattern can be found in CashReigster.java
+   * Bonus: Iterator Pattern can be found in CashRegister.java
 
 3. Assumptions Made
 
