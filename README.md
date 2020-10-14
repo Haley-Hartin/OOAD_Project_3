@@ -4,7 +4,7 @@
 
 1. Language and Environment
 
-   * 
+   * Java 8 in Eclipse IDE
 
 2. Notes
 
@@ -23,4 +23,6 @@
    
 5. Instructions To Run Application
 
-   * 
+   * To run the program normally, just run the RunStore.java
+   * To run with the extra credit code: uncomment code marked as extra credit (in RunStore.java and ExtraCredit.java) and download XChart jar and add it to external libraries: https://knowm.org/open-source/xchart/
+   * To run with the JUnit tests, make sure to (in Eclipse) go to properties of the project->Java Build Path -> Libaries -> Add Library -> JUnit -> JUnit 4 -> Finish ->Apply & Close
