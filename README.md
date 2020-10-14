@@ -9,6 +9,7 @@
 2. Notes
 
    * There are 3 output files for this assignment. Each for the 30, 45, 60 inventory level. They will be titled output_Inventory_##.txt
+   * results for the JUnit Tests can be found at the bottom of each of the 3 output files
 
 3. Assumptions Made
 
