@@ -8,7 +8,7 @@
 
 2. Notes
 
-   * The output file for this assignment will be titled output.txt
+   * There are 3 output files for this assignment. Each for the 30, 45, 60 inventory level. They will be titled output_Inventory_##.txt
 
 3. Assumptions Made
 
